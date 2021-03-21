@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="66519" imagepath="ui\random_map\asian_maps" helpTextID="90604" cannotReplace="">
+  <map>Mongolia</map>
+  <map>Deccan</map>
+  <map>Honshu</map>
+  <map>Bengal</map>
+  <map>borneo</map>
+  <map>indochina</map>
+  <map>Himalayas</map>
+  <map>himalayasUpper</map>
+  <map>siberia</map>
+  <map>silkRoad</map>
+  <map>yellow riverDry</map>
+  <map>Alaska</map>
+  <map>Borneo</map>
+  <map>Central Plain</map>
+  <map>Fertile Crescent</map>
+  <map>Hokkaido</map>
+  <map>Indonesia</map>
+  <map>Kamchatka</map>
+  <map>Korea</map>
+  <map>Manchuria</map>
+  <map>Malaysia</map>
+  <map>Parallel Rivers</map>
+  <map>Punjab</map>
+</randomMaps>

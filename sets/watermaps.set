@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="90610" imagepath="ui\random_map\water_maps" helpTextID="90611" cannotReplace="">
+  <map>Araucania</map>
+  <map>Baja California</map>
+  <map>Borneo</map>
+  <map>Florida</map>
+  <map>Hispaniola</map>
+  <map>Indochina</map>
+  <map>Indonesia</map>
+  <map>Malaysia</map>
+  <map>New England</map>
+  <map>Northwest Territory</map>
+  <map>Patagonia</map>
+  <map>Saguenay</map>
+  <map>Yucatan</map>
+</randomMaps>

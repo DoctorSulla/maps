@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "90547" displayNameID = "90545" loadDetails="90546"
+    imagepath  = "ui\random_map\central_plains\central_plain_mini" cannotReplace = "" loadBackground="ui\random_map\central_plains\central_plains_map">
+    <loadss>ui\random_map\central_plains\central_plains_ss_01</loadss>
+    <loadss>ui\random_map\central_plains\central_plains_ss_02</loadss>
+    <loadss>ui\random_map\central_plains\central_plains_ss_03</loadss>
+</mapinfo>

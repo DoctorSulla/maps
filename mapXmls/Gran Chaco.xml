@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "90541" displayNameID = "90539" loadDetails="90540"
+    imagepath  = "ui\random_map\gran_chaco\gran_chaco_mini" cannotReplace = "" loadBackground="ui\random_map\gran_chaco\gran_chaco_map">
+    <loadss>ui\random_map\gran_chaco\gran_chaco_ss_01</loadss>
+    <loadss>ui\random_map\gran_chaco\gran_chaco_ss_02</loadss>
+    <loadss>ui\random_map\gran_chaco\gran_chaco_ss_03</loadss>
+</mapinfo>

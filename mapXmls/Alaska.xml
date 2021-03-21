@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "90508" displayNameID = "90506" loadDetails="90507"
+    imagepath  = "ui\random_map\alaska\alaska_mini" cannotReplace = "" loadBackground="ui\random_map\alaska\alaska_map">
+    <loadss>ui\random_map\alaska\alaska_ss_01</loadss>
+    <loadss>ui\random_map\alaska\alaska_ss_02</loadss>
+    <loadss>ui\random_map\alaska\alaska_ss_03</loadss>
+</mapinfo>

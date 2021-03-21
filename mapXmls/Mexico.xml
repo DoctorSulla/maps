@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo  details = "90592" displayNameID = "90590" loadDetails="90591"
+    imagepath  = "ui\random_map\mexico\mexico_mini" cannotReplace = "" loadBackground="ui\random_map\mexico\mexico_map">
+    <loadss>ui\random_map\mexico\mexico_ss_01</loadss>
+    <loadss>ui\random_map\mexico\mexico_ss_02</loadss>
+    <loadss>ui\random_map\mexico\mexico_ss_03</loadss>
+</mapinfo>

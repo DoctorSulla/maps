@@ -1,0 +1,8 @@
+body,html { padding:0; margin:0; font-family:tahoma }
+body { background-color:rgb(240,240,240) }
+h1 { text-align:center; margin:0; padding:10px; font-family:helvetica; font-weight:bold; color:#4169e1 }
+h3 { font-family:helvetica }
+main { width:100%; max-width:1000px; margin:auto; min-height:100vh; background-color:rgb(255,255,255) }
+a { color:blue }
+li { padding-top:5px; padding-bottom:5px }
+footer { display:block; height:20px }

@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "90598" displayNameID = "90596" loadDetails="90597"
+    imagepath  = "ui\random_map\parallel_rivers\parallel_rivers_mini" cannotReplace = "" loadBackground="ui\random_map\parallel_rivers\parallel_rivers_map">
+    <loadss>ui\random_map\parallel_rivers\parallel_rivers_ss_01</loadss>
+    <loadss>ui\random_map\parallel_rivers\parallel_rivers_ss_02</loadss>
+    <loadss>ui\random_map\parallel_rivers\parallel_rivers_ss_03</loadss>
+</mapinfo>

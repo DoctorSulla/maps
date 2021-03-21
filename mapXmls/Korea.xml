@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "90505" displayNameID = "90503" loadDetails="90504"
+    imagepath  = "ui\random_map\korea\korea_mini" cannotReplace = "" loadBackground="ui\random_map\korea\korea_map">
+    <loadss>ui\random_map\korea\korea_ss_01</loadss>
+    <loadss>ui\random_map\korea\korea_ss_02</loadss>
+    <loadss>ui\random_map\korea\korea_ss_03</loadss>
+</mapinfo>

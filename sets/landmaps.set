@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="90608" imagepath="ui\random_map\land_maps" helpTextID="90609" cannotReplace="">
+  <map>Andes Upper</map>
+  <map>Central Plain</map>
+  <map>Colorado</map>
+  <map>Dakota</map>
+  <map>Deccan</map>
+  <map>Fertile Crescent</map>
+  <map>Gran Chaco</map>
+  <map>Himalayas</map>
+  <map>Kamchatka</map>
+  <map>Mexico</map>
+  <map>Mongolia</map>
+  <map>Ozarks</map>
+  <map>Pampas</map>
+  <map>Parallel Rivers</map>
+  <map>Punjab</map>
+  <map>Siberia</map>
+  <map>Yukon</map>
+</randomMaps>

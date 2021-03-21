@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "90583" displayNameID = "90581" loadDetails="90582"
+    imagepath = "ui\random_map\arctic_territories\arctic_territories_mini" cannotReplace = "" loadBackground="ui\random_map\arctic_territories\arctic_territories_map">
+    <loadss>ui\random_map\arctic_territories\arctic_territories_ss_01</loadss>
+    <loadss>ui\random_map\arctic_territories\arctic_territories_ss_02</loadss>
+    <loadss>ui\random_map\arctic_territories\arctic_territories_ss_03</loadss>
+</mapinfo>

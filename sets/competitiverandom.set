@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="90501" imagepath="ui\random_map\competitive_maps" helpTextID="90502" cannotReplace="">
+  <map>Alaska</map>
+  <map>Andes Upper</map>
+  <map>Araucania</map>
+  <map>Arctic Territories</map>
+  <map>Baja California</map>
+  <map>Borneo</map>
+  <map>Cascade Range</map>
+  <map>Central Plain</map>
+  <map>Colorado</map>
+  <map>Dakota</map>
+  <map>Deccan</map>
+  <map>Fertile Crescent</map>
+  <map>Florida</map>
+  <map>Gran Chaco</map>
+  <map>Hokkaido</map>
+  <map>Himalayas</map>
+  <map>Indonesia</map>
+  <map>Kamchatka</map>
+  <map>Korea</map>
+  <map>Manchuria</map>
+  <map>Malaysia</map>
+  <map>Mexico</map>
+  <map>Mongolia</map>
+  <map>New England</map>
+  <map>Ozarks</map>
+  <map>Pampas Sierras</map>
+  <map>Parallel Rivers</map>
+  <map>Patagonia</map>
+  <map>Punjab</map>
+  <map>Saguenay</map>
+  <map>Siberia</map>
+  <map>Yukon</map>
+</randomMaps>

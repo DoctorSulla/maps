@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "90595" displayNameID = "90593" loadDetails="90594"
+    imagepath = "ui\random_map\andes_upper\andes_upper_mini" cannotReplace = "" loadBackground="ui\random_map\andes_upper\andes_upper_map">
+    <loadss>ui\random_map\andes_upper\andes_upper_ss_01</loadss>
+    <loadss>ui\random_map\andes_upper\andes_upper_ss_02</loadss>
+    <loadss>ui\random_map\andes_upper\andes_upper_ss_03</loadss>
+</mapinfo>

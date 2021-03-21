@@ -1,0 +1,8 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "90532" displayNameID = "90530" loadDetails="90531"
+    imagepath  = "ui\random_map\fertile_crescent\fertile_crescent_mini" cannotReplace = "" loadBackground="ui\random_map\fertile_crescent\fertile_crescent_map">
+    <loadss>ui\random_map\fertile_crescent\fertile_crescent_ss_01</loadss>
+    <loadss>ui\random_map\fertile_crescent\fertile_crescent_ss_02</loadss>
+    <loadss>ui\random_map\fertile_crescent\fertile_crescent_ss_03</loadss>
+ 
+</mapinfo>

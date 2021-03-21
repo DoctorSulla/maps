@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapinfo details = "90589" displayNameID = "90587" loadDetails="90588"
+    imagepath  = "ui\random_map\dakota\dakota_mini" cannotReplace = "" loadBackground="ui\random_map\dakota\dakota_map">
+    <loadss>ui\random_map\dakota\dakota_ss_01</loadss>
+    <loadss>ui\random_map\dakota\dakota_ss_02</loadss>
+    <loadss>ui\random_map\dakota\dakota_ss_03</loadss>
+</mapinfo>

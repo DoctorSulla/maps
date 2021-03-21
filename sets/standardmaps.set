@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="90602" imagepath="ui\random_map\standard_maps" helpTextID="90603" cannotReplace="">
+  <map>Dakota</map>
+  <map>Colorado</map>
+  <map>Fertile Crescent</map>
+  <map>Mexico</map>
+  <map>Florida</map>
+  <map>Saguenay</map>
+  <map>Kamchatka</map>
+  <map>Central Plain</map>
+  <map>Mongolia</map>
+  <map>Korea</map>
+  <map>Punjab</map>
+  <map>Baja California</map>
+  <map>Hokkaido</map>
+  <map>Siberia</map>
+  <map>New England</map>
+  <map>Arctic Territories</map>
+  <map>Manchuria</map>
+  <map>Malaysia</map>
+  <map>Gran Chaco</map>
+  <map>Pampas Sierras</map>
+</randomMaps>

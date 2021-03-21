@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="19836" imagepath="ui\random_map\all_maps" helpTextID="18609" cannotReplace="">
+  <map>Bayou</map>
+  <map>Carolina</map>
+  <map>Great Lakes</map>
+  <map>Great Plains</map>
+  <map>New England</map>
+  <map>Pampas</map>
+  <map>Patagonia</map>
+  <map>Rockies</map>
+  <map>Saguenay</map>
+  <map>Sonora</map>
+  <map>Texas</map>
+  <map>Yucatan</map>
+  <map>Yukon</map>
+  <map>Andes</map>
+  <map>California</map>
+  <map>Plymouth</map>
+  <map>Ozarks</map>
+  <map>Northwest Territory</map>
+  <map>Hispaniola</map>
+  <map>Araucania</map>
+  <map>Unknown</map>
+  <map>Painted Desert</map>
+  <map>Siberia</map>
+  <map>Mongolia</map>
+  <map>borneo</map>
+  <map>deccan</map>
+  <map>Honshu</map>
+  <map>Himalayas</map>
+  <map>himalayasUpper</map>
+  <map>silkRoad</map>
+  <map>yellow riverDry</map>
+  <map>indochina</map>
+  <map>Alaska</map>
+  <map>Andes Upper</map>
+  <map>Arctic Territories</map>
+  <map>Baja California</map>
+  <map>Cascade Range</map>
+  <map>Central Plain</map>
+  <map>Colorado</map>
+  <map>Dakota</map>
+  <map>Fertile Crescent</map>
+  <map>Florida</map>
+  <map>Gran Chaco</map>
+  <map>Hokkaido</map>
+  <map>Indonesia</map>
+  <map>Kamchatka</map>
+  <map>Korea</map>
+  <map>Manchuria</map>
+  <map>Malaysia</map>
+  <map>Mexico</map>
+  <map>Pampas Sierras</map>
+  <map>Parallel Rivers</map>
+  <map>Patagonia</map>
+  <map>Punjab</map>
+  <map>Yukon</map>
+  <map>Bengal</map>
+</randomMaps>

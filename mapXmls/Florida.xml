@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "90535" displayNameID = "90533" loadDetails="90534"
+    imagepath  = "ui\random_map\florida\florida_mini" cannotReplace = "" loadBackground="ui\random_map\florida\florida_map">
+    <loadss>ui\random_map\florida\florida_ss_01</loadss>
+    <loadss>ui\random_map\florida\florida_ss_02</loadss>
+    <loadss>ui\random_map\florida\florida_ss_03</loadss>  
+</mapinfo>

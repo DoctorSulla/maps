@@ -1,0 +1,7 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<mapinfo details = "90580" displayNameID = "90578" loadDetails="90579"
+    imagepath  = "ui\random_map\colorado\colorado_mini" cannotReplace = "" loadBackground="ui\random_map\colorado\colorado_map">
+    <loadss>ui\random_map\colorado\colorado_ss_01</loadss>
+    <loadss>ui\random_map\colorado\colorado_ss_02</loadss>
+    <loadss>ui\random_map\colorado\colorado_ss_03</loadss>
+</mapinfo>

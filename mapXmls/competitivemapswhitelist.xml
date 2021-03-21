@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompetitiveMaps>
+  <MapName>competitiverandom</MapName>
+  <MapName>standardmaps</MapName>
+  <MapName>teamrandom</MapName>
+  <MapName>landmaps</MapName>
+  <MapName>watermaps</MapName>
+  <MapName>TreatyMaps</MapName>  
+  <MapName>Alaska</MapName>
+  <MapName>Andes Upper</MapName>
+  <MapName>Araucania</MapName>
+  <MapName>Arctic Territories</MapName>
+  <MapName>Baja California</MapName>
+  <MapName>Borneo</MapName>
+  <MapName>Cascade Range</MapName>
+  <MapName>Central Plain</MapName>
+  <MapName>Colorado</MapName>
+  <MapName>Dakota</MapName>
+  <MapName>Deccan</MapName>
+  <MapName>Fertile Crescent</MapName>
+  <MapName>Florida</MapName>
+  <MapName>Gran Chaco</MapName>
+  <MapName>Hokkaido</MapName>
+  <MapName>Himalayas</MapName>
+  <MapName>Indonesia</MapName>
+  <MapName>Kamchatka</MapName>
+  <MapName>Korea</MapName>
+  <MapName>Manchuria</MapName>
+  <MapName>Malaysia</MapName>
+  <MapName>Mexico</MapName>
+  <MapName>Mongolia</MapName>
+  <MapName>New England</MapName>
+  <MapName>Ozarks</MapName>
+  <MapName>Pampas Sierras</MapName>
+  <MapName>Parallel Rivers</MapName>
+  <MapName>Patagonia</MapName>
+  <MapName>Punjab</MapName>
+  <MapName>Saguenay</MapName>
+  <MapName>Siberia</MapName>
+  <MapName>Yukon</MapName>
+</CompetitiveMaps>

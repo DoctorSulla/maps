@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="90606" imagepath="ui\random_map\team_maps" helpTextID="90607" cannotReplace="">
+	<map>Alaska</map>
+	<map>Baja California</map>
+	<map>Cascade Range</map>
+	<map>Central Plain</map>
+	<map>Colorado</map>
+	<map>Dakota</map>
+	<map>Deccan</map>
+	<map>Fertile Crescent</map>
+	<map>Florida</map>
+	<map>Gran Chaco</map>
+	<map>Himalayas</map>
+	<map>Kamchatka</map>
+	<map>Korea</map>
+	<map>Manchuria</map>
+	<map>Mexico</map>
+	<map>mongolia</map>
+	<map>Pampas Sierras</map>
+	<map>patagonia</map>
+	<map>Punjab</map>
+	<map>Saguenay</map>
+	<map>Siberia</map>
+</randomMaps>
