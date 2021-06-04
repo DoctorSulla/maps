@@ -52,8 +52,10 @@ function removeDuplicates($array,$property) {
   return $tmpArray;
 }
 
+// Array to hold map information
 $mapsArray = [];
 
+// Check if a map-set is specified
 if(isset($_GET['set'])) {
   $setFile = $_GET['set'].".set";
 }
@@ -61,52 +63,75 @@ else {
   die("<p>No map set chosen.</p>");
 }
 
+// Check if the chosen map-set is valid
 if(!file_exists("../sets/".$setFile)) {
   die("<p>Invalid map set</p>");
 }
 
+// File name for map information cache
+$fileName = $_GET['set'].".json";
+
 $maps = simplexml_load_file("../sets/".$setFile);
 
-// Get the maps display name
+// Get the map display name
 $mapStringId = $maps->attributes()->displayNameID;
 $mapStringId = str_replace('"','',$mapStringId);
 
+// Header
 echo "<h1>".fetchFromStringsFile($mapStringId)."</h1>";
 
 echo "<div id='allMaps'>";
 
-$mapXmls = scandir('../mapXmls/');
-// To get around case sensitive file names on unix systems
-foreach($maps->map as $map) {
-  $pattern = "/".$map.".xml/i";
-  foreach($mapXmls as $mapXml) {
-    if(preg_match($pattern,$mapXml)) {
-      $file = simplexml_load_file("../mapXmls/".$mapXml);
-    }
+// Check if this map-set has been processed before and if so load the pre-processed file
+if(file_exists($fileName)) {
+  $fileString = '';
+  $file = fopen($fileName,'r');
+  while(!feof($file)) {
+    $fileString .= fgets($file);
   }
-  $imgPath =  $file->attributes()->imagepath;
-  $imgPath = preg_replace('/ui\\\random_map\\\.*\\\/','../images/',$imgPath);
-  // Because Ozarks and Plymouth are special
-  $imgPath = preg_replace('/patch\\\..*\\\/','../images/',$imgPath);
-  $imgPath = $imgPath.".jpg";
-
-  // Get the display name id
-  $displayNameId = $file->attributes()->displayNameID;
-  $displayNameId = str_replace('"','',$displayNameId);
-  // Get the description id
-  $descriptionId = $file->attributes()->details;
-  $descriptionId = str_replace('"','',$descriptionId);
-
-  $mapObject = new stdClass();
-  $mapObject->img = $imgPath;
-  $mapObject->displayName = fetchFromStringsFile($displayNameId);
-  $mapObject->description = fetchFromStringsFile($descriptionId);
-  array_push($mapsArray,$mapObject);
+  fclose($file);
+  $mapsArray = json_decode($fileString);
 }
-$mapsArray = removeDuplicates($mapsArray,'displayName');
-usort($mapsArray,'sortMaps');
 
+// If the map-set has not been processed before then process it
+else {
+  $mapXmls = scandir('../mapXmls/');
+  // To get around case sensitive file names on unix systems
+  foreach($maps->map as $map) {
+    $pattern = "/".$map.".xml/i";
+    foreach($mapXmls as $mapXml) {
+      if(preg_match($pattern,$mapXml)) {
+        $file = simplexml_load_file("../mapXmls/".$mapXml);
+      }
+    }
+    $imgPath =  $file->attributes()->imagepath;
+    $imgPath = preg_replace('/ui\\\random_map\\\.*\\\/','../images/',$imgPath);
+    // Because Ozarks and Plymouth are special
+    $imgPath = preg_replace('/patch\\\..*\\\/','../images/',$imgPath);
+    $imgPath = $imgPath.".jpg";
 
+    // Get the display name id
+    $displayNameId = $file->attributes()->displayNameID;
+    $displayNameId = str_replace('"','',$displayNameId);
+    // Get the description id
+    $descriptionId = $file->attributes()->details;
+    $descriptionId = str_replace('"','',$descriptionId);
+
+    $mapObject = new stdClass();
+    $mapObject->img = $imgPath;
+    $mapObject->displayName = fetchFromStringsFile($displayNameId);
+    $mapObject->description = fetchFromStringsFile($descriptionId);
+    array_push($mapsArray,$mapObject);
+  }
+  $mapsArray = removeDuplicates($mapsArray,'displayName');
+  usort($mapsArray,'sortMaps');
+
+  // Write result to file to avoid re-processing
+  $file = fopen($fileName,'w+');
+  $json= json_encode($mapsArray);
+  fwrite($file,$json);
+  fclose($file);
+}
 foreach($mapsArray as $map) {
   echo "<div class='map-container'>
     <div class='card-inner'>
@@ -122,8 +147,7 @@ foreach($mapsArray as $map) {
   </div>";
 }
 echo "</div>";
-
- ?>
+?>
 </main>
 </body>
 <footer>
