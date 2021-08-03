@@ -1,16 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <randomMaps displayNameID="90610" imagepath="ui\random_map\water_maps" helpTextID="90611" cannotReplace="">
+  <map>Alaska</map>
+  <map>Amazonia</map>
   <map>Araucania</map>
   <map>Baja California</map>
-  <map>Borneo</map>
+  <map>borneo</map>
+  <map>California</map>
+  <map>Caribbean</map>
+  <map>Carolina</map>
+  <map>Ceylon</map>
   <map>Florida</map>
+  <map>afGold Coast</map>
+  <map>afGold Coast</map>
   <map>Hispaniola</map>
-  <map>Indochina</map>
+  <map>Hokkaido</map>
+  <map>Honshu</map>
+  <map>afHorn</map>
+  <map>afHorn</map>
+  <map>indochina</map>
   <map>Indonesia</map>
+  <map>afLakeChad</map>
+  <map>afLakeChad</map>
   <map>Malaysia</map>
+  <map>Manchuria</map>
   <map>New England</map>
+  <map>afNiger Delta</map>
+  <map>afNiger Delta</map>
+  <map>afNiger River</map>
+  <map>afNiger River</map>
   <map>Northwest Territory</map>
   <map>Patagonia</map>
+  <map>afPepperCoast</map>
+  <map>afPepperCoast</map>
   <map>Saguenay</map>
+  <map>afTripolitania</map>
+  <map>afTripolitania</map>
   <map>Yucatan</map>
 </randomMaps>

@@ -1,59 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <randomMaps displayNameID="19836" imagepath="ui\random_map\all_maps" helpTextID="18609" cannotReplace="">
-  <map>Bayou</map>
-  <map>Carolina</map>
-  <map>Great Lakes</map>
-  <map>Great Plains</map>
-  <map>New England</map>
-  <map>Pampas</map>
-  <map>Patagonia</map>
-  <map>Rockies</map>
-  <map>Saguenay</map>
-  <map>Sonora</map>
-  <map>Texas</map>
-  <map>Yucatan</map>
-  <map>Yukon</map>
-  <map>Andes</map>
-  <map>California</map>
-  <map>Plymouth</map>
-  <map>Ozarks</map>
-  <map>Northwest Territory</map>
-  <map>Hispaniola</map>
-  <map>Araucania</map>
-  <map>Unknown</map>
-  <map>Painted Desert</map>
-  <map>Siberia</map>
-  <map>Mongolia</map>
-  <map>borneo</map>
-  <map>deccan</map>
-  <map>Honshu</map>
-  <map>Himalayas</map>
-  <map>himalayasUpper</map>
-  <map>silkRoad</map>
-  <map>yellow riverDry</map>
-  <map>indochina</map>
   <map>Alaska</map>
+  <map>Amazonia</map>
+  <map>Andes</map>
   <map>Andes Upper</map>
   <map>Arctic Territories</map>
+  <map>Araucania</map>
+  <map>afAtlas</map>
+  <map>afAtlas</map>
   <map>Baja California</map>
+  <map>Bayou</map>
+  <map>Bengal</map>
+  <map>borneo</map>
+  <map>California</map>
+  <map>Caribbean</map>
+  <map>Carolina</map>
   <map>Cascade Range</map>
   <map>Central Plain</map>
+  <map>Ceylon</map>
   <map>Colorado</map>
   <map>Dakota</map>
+  <map>afDarfur</map>
+  <map>afDarfur</map>
+  <map>deccan</map>
   <map>Fertile Crescent</map>
   <map>Florida</map>
+  <map>afGold Coast</map>
+  <map>afGold Coast</map>
   <map>Gran Chaco</map>
+  <map>Great Lakes</map>
+  <map>Great Plains</map>
+  <map>afGreat Rift</map>
+  <map>afGreat Rift</map>
+  <map>afHighlands</map>
+  <map>afHighlands</map>
+  <map>Himalayas</map>
+  <map>himalayasUpper</map>
+  <map>Hispaniola</map>
   <map>Hokkaido</map>
+  <map>Honshu</map>
+  <map>afHorn</map>
+  <map>afHorn</map>
+  <map>indochina</map>
   <map>Indonesia</map>
   <map>Kamchatka</map>
   <map>Korea</map>
-  <map>Manchuria</map>
+  <map>afLakeChad</map>
+  <map>afLakeChad</map>
   <map>Malaysia</map>
+  <map>Manchuria</map>
   <map>Mexico</map>
+  <map>Mongolia</map>
+  <map>New England</map>
+  <map>afNiger Delta</map>
+  <map>afNiger Delta</map>
+  <map>afNiger River</map>
+  <map>afNiger River</map>
+  <map>afNile Valley</map>
+  <map>afNile Valley</map>
+  <map>Northwest Territory</map>
+  <map>Orinoco</map>
+  <map>Ozarks</map>
+  <map>Painted Desert</map>
+  <map>Pampas</map>
   <map>Pampas Sierras</map>
   <map>Parallel Rivers</map>
   <map>Patagonia</map>
+  <map>afPepperCoast</map>
+  <map>afPepperCoast</map>
+  <map>Plymouth</map>
   <map>Punjab</map>
+  <map>Rockies</map>
+  <map>Saguenay</map>
+  <map>afSavanna</map>
+  <map>afSavanna</map>
+  <map>Siberia</map>
+  <map>silkRoad</map>
+  <map>Sonora</map>
+  <map>afSudd</map>
+  <map>afSudd</map>
+  <map>afTassili</map>
+  <map>afTassili</map>
+  <map>Texas</map>
+  <map>afTripolitania</map>
+  <map>afTripolitania</map>
+  <map>Unknown</map>
+  <map>yellow riverDry</map>
+  <map>Yucatan</map>
   <map>Yukon</map>
-  <map>Bengal</map>
 </randomMaps>

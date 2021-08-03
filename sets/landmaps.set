@@ -1,20 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <randomMaps displayNameID="90608" imagepath="ui\random_map\land_maps" helpTextID="90609" cannotReplace="">
+  <map>Andes</map>
   <map>Andes Upper</map>
+  <map>Arctic Territories</map>
+  <map>afAtlas</map>
+  <map>afAtlas</map>
+  <map>Bayou</map>
+  <map>Bengal</map>
+  <map>Cascade Range</map>
   <map>Central Plain</map>
   <map>Colorado</map>
   <map>Dakota</map>
-  <map>Deccan</map>
+  <map>afDarfur</map>
+  <map>afDarfur</map>
+  <map>deccan</map>
   <map>Fertile Crescent</map>
   <map>Gran Chaco</map>
+  <map>Great Plains</map>
+  <map>afGreat Rift</map>
+  <map>afGreat Rift</map>
+  <map>afHighlands</map>
+  <map>afHighlands</map>
   <map>Himalayas</map>
+  <map>himalayasUpper</map>
   <map>Kamchatka</map>
   <map>Mexico</map>
   <map>Mongolia</map>
+  <map>afNile Valley</map>
+  <map>afNile Valley</map>
+  <map>Orinoco</map>
   <map>Ozarks</map>
+  <map>Painted Desert</map>
   <map>Pampas</map>
+  <map>Pampas Sierras</map>
   <map>Parallel Rivers</map>
   <map>Punjab</map>
+  <map>Rockies</map>
+  <map>afSavanna</map>
+  <map>afSavanna</map>
   <map>Siberia</map>
+  <map>silkRoad</map>
+  <map>Sonora</map>
+  <map>afSudd</map>
+  <map>afSudd</map>
+  <map>afTassili</map>
+  <map>afTassili</map>
+  <map>Texas</map>
   <map>Yukon</map>
 </randomMaps>

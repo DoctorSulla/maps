@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<randomMaps displayNameID="105033" imagepath="ui\random_map\african_maps" helpTextID="105034" cannotReplace="">
+    <map>afAtlas</map>
+    <map>afDarfur</map>
+    <map>afGold Coast</map>
+    <map>afGreat Rift</map>
+    <map>afHighlands</map>
+    <map>afHorn</map>
+    <map>afLakeChad</map>
+    <map>afNiger Delta</map>
+    <map>afNiger River</map>
+    <map>afNile Valley</map>
+    <map>afPepperCoast</map>
+    <map>afSavanna</map>
+    <map>afSudd</map>
+    <map>afTassili</map>
+    <map>afTripolitania</map>
+</randomMaps>

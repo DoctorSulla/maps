@@ -2,34 +2,68 @@
 <randomMaps displayNameID="90501" imagepath="ui\random_map\competitive_maps" helpTextID="90502" cannotReplace="">
   <map>Alaska</map>
   <map>Andes Upper</map>
-  <map>Araucania</map>
   <map>Arctic Territories</map>
   <map>Baja California</map>
-  <map>Borneo</map>
+  <map>Bayou</map>
+  <map>Bengal</map>
+  <map>borneo</map>
   <map>Cascade Range</map>
   <map>Central Plain</map>
   <map>Colorado</map>
   <map>Dakota</map>
-  <map>Deccan</map>
+  <map>afDarfur</map>
+  <map>afDarfur</map>
+  <map>deccan</map>
   <map>Fertile Crescent</map>
   <map>Florida</map>
+  <map>afGold Coast</map>
+  <map>afGold Coast</map>
   <map>Gran Chaco</map>
-  <map>Hokkaido</map>
+  <map>Great Lakes</map>
+  <map>Great Plains</map>
+  <map>Great Plains</map>
+  <map>afGreat Rift</map>
+  <map>afGreat Rift</map>
+  <map>afHighlands</map>
+  <map>afHighlands</map>
   <map>Himalayas</map>
+  <map>Hokkaido</map>
+  <map>afHorn</map>
+  <map>afHorn</map>
   <map>Indonesia</map>
   <map>Kamchatka</map>
   <map>Korea</map>
-  <map>Manchuria</map>
+  <map>afLakeChad</map>
+  <map>afLakeChad</map>
   <map>Malaysia</map>
+  <map>Manchuria</map>
   <map>Mexico</map>
   <map>Mongolia</map>
   <map>New England</map>
+  <map>afNiger Delta</map>
+  <map>afNiger Delta</map>
+  <map>afNile Valley</map>
+  <map>afNile Valley</map>
   <map>Ozarks</map>
+  <map>Painted Desert</map>
   <map>Pampas Sierras</map>
   <map>Parallel Rivers</map>
   <map>Patagonia</map>
+  <map>afPepperCoast</map>
+  <map>afPepperCoast</map>
   <map>Punjab</map>
   <map>Saguenay</map>
+  <map>afSavanna</map>
+  <map>afSavanna</map>
+  <map>afSavanna</map>
+  <map>afSavanna</map>
   <map>Siberia</map>
+  <map>Sonora</map>
+  <map>afSudd</map>
+  <map>afSudd</map>
+  <map>afTassili</map>
+  <map>afTassili</map>
+  <map>afTripolitania</map>
+  <map>afTripolitania</map>
   <map>Yukon</map>
 </randomMaps>

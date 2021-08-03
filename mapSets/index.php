@@ -10,12 +10,12 @@ require("../config/index.php");
 <style>
 .map-container { display:inline-block; width:278px; height:278px; padding:2%; text-align:center; }
 .display-name { text-align:center; }
-.card-inner { position:relative; transition: transform 0.8s; transform-style: preserve-3d; height:100% }
-.card-back, .card-front { backface-visibility:hidden; position:absolute; top:0; left:0; padding:10px; height:100% }
-.card-back { transform:rotateY(180deg); border:3px solid gold; border-radius:5px }
-.map-container:hover .card-inner { transform:rotateY(180deg) }
+.card-inner { position:relative; transition: transform 0.8s; transform-style: preserve-3d; height:100%;}
+.card-back, .card-front { backface-visibility: hidden; position:absolute; top:0; left:0; padding:10px; height:100%; transform:rotateX(0deg) }
+.card-back { transform:rotateY(180deg); border:3px solid gold; border-radius:5px; }
+.map-container:hover .card-inner { transform:rotateY(180deg); }
 #allMaps { text-align:center }
-img { margin:auto }
+img { margin:auto; }
 @media only screen and (max-width: 600px) {
   .map-container { margin-bottom:2em; width:139px; height:139px; padding:0; font-size:10px; }
 }

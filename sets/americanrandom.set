@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <randomMaps displayNameID="90612" imagepath="ui\random_map\american_maps" helpTextID="90613" cannotReplace="">
+  <map>Amazonia</map>
   <map>Bayou</map>
   <map>Carolina</map>
+  <map>Caribbean</map>
   <map>Great Lakes</map>
   <map>Great Plains</map>
   <map>New England</map>

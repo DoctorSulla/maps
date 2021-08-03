@@ -26,9 +26,11 @@ foreach($mapSets as $set) {
     $file = simplexml_load_file('./sets/'.$set);
     $imagePath = $file->attributes()->imagepath;
     $imagePath = str_replace('ui\random_map\\','',$imagePath);
+    $altText = str_replace('_',' ',$imagePath);
+    $altText = ucwords($altText);
     $imagePath = "./images/".$imagePath.".jpg";
     $link = str_replace(".set","",$set);
-    echo "<a href='./mapSets/?set=".$link."'><img src='".$imagePath."'></a>";
+    echo "<a href='./mapSets/?set=".$link."'><img alt='".$altText."' src='".$imagePath."'></a>";
   }
 }
  ?>

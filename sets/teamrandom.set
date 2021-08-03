@@ -7,7 +7,6 @@
 	<map>Colorado</map>
 	<map>Dakota</map>
 	<map>Deccan</map>
-	<map>Fertile Crescent</map>
 	<map>Florida</map>
 	<map>Gran Chaco</map>
 	<map>Himalayas</map>
@@ -17,8 +16,34 @@
 	<map>Mexico</map>
 	<map>mongolia</map>
 	<map>Pampas Sierras</map>
-	<map>patagonia</map>
 	<map>Punjab</map>
 	<map>Saguenay</map>
-	<map>Siberia</map>
+<!--<map>Siberia</map>-->
+    <map>afDarfur</map>
+    <map>afDarfur</map>
+	<map>Great Plains</map>
+	<map>Great Plains</map>
+    <map>afGold Coast</map>
+    <map>afGold Coast</map>
+    <map>afGreat Rift</map>
+    <map>afGreat Rift</map>
+    <map>afHighlands</map>
+    <map>afHighlands</map>
+    <map>afHorn</map>
+    <map>afHorn</map>
+    <map>afLakeChad</map>
+    <map>afLakeChad</map>
+    <map>afNiger Delta</map>
+    <map>afNile Valley</map>
+    <map>afNile Valley</map>
+    <map>afPepperCoast</map>
+    <map>afPepperCoast</map>
+    <map>afSavanna</map>
+    <map>afSavanna</map>
+    <map>afSudd</map>
+    <map>afSudd</map>
+    <map>afTassili</map>
+    <map>afTassili</map>
+    <map>afTripolitania</map>
+    <map>afTripolitania</map>
 </randomMaps>
