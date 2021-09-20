@@ -18,16 +18,12 @@
 	<map>Pampas Sierras</map>
 	<map>Punjab</map>
 	<map>Saguenay</map>
-<!--<map>Siberia</map>-->
     <map>afDarfur</map>
     <map>afDarfur</map>
 	<map>Great Plains</map>
-	<map>Great Plains</map>
-    <map>afGold Coast</map>
     <map>afGold Coast</map>
     <map>afGreat Rift</map>
     <map>afGreat Rift</map>
-    <map>afHighlands</map>
     <map>afHighlands</map>
     <map>afHorn</map>
     <map>afHorn</map>
@@ -44,6 +40,18 @@
     <map>afSudd</map>
     <map>afTassili</map>
     <map>afTassili</map>
-    <map>afTripolitania</map>
-    <map>afTripolitania</map>
+    <map>afTripolitania</map>	
+    <map>afSahel</map>
+    <map>afSahel</map>
+    <map>afSahel</map>
+    <map>afSahel</map>
+    <map>afSahel</map>
+    <map>afSahel</map>
+    <map>afDunes</map>
+    <map>afDunes</map>	
+    <map>afDunes</map>	
+    <map>afIvoryCoast</map>
+    <map>afIvoryCoast</map>
+    <map>afIvoryCoast</map>
+    <map>afIvoryCoast</map>
 </randomMaps>

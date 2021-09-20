@@ -9,6 +9,7 @@
   <map>Orinoco</map>
   <map>Orinoco</map>
   <map>Orinoco</map>
+  <map>Orinoco</map>
   <map>Central Plain</map>
   <map>Dakota</map>
   <map>deccan</map>
@@ -18,12 +19,16 @@
   <map>ozarks</map>
   <map>Pampas Sierras</map>
   <map>Punjab</map>
-  <!-- <map>afHighlands</map> -->
-  <!-- <map>afHighlands</map> -->
   <map>afAtlas</map>
   <map>afAtlas</map>
   <map>afAtlas</map>
   <map>afAtlas</map>
   <map>afAtlas</map>
   <map>afAtlas</map>
+  <map>afDarfur</map>
+  <map>afDarfur</map>
+  <map>afDarfur</map>
+  <map>afSavanna</map>
+  <map>afSavanna</map>
+  <map>afSavanna</map>
 </randomMaps>

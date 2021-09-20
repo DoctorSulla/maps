@@ -2,17 +2,37 @@
 <randomMaps displayNameID="105033" imagepath="ui\random_map\african_maps" helpTextID="105034" cannotReplace="">
     <map>afAtlas</map>
     <map>afDarfur</map>
+    <map>afDarfur</map>
+    <map>afDunes</map>
+    <map>afDunes</map>
     <map>afGold Coast</map>
     <map>afGreat Rift</map>
     <map>afHighlands</map>
     <map>afHorn</map>
+    <map>afIvoryCoast</map>
+    <map>afIvoryCoast</map>
     <map>afLakeChad</map>
     <map>afNiger Delta</map>
     <map>afNiger River</map>
     <map>afNile Valley</map>
+    <map>afNile Valley</map>
+    <map>afNile Valley</map>
+    <map>afNile Valley</map>
     <map>afPepperCoast</map>
+    <map>afPepperCoast</map>
+    <map>afSahel</map>
+    <map>afSahel</map>
+    <map>afSahel</map>
+    <map>afSahel</map>
+    <map>afSavanna</map>
+    <map>afSavanna</map>
+    <map>afSavanna</map>
     <map>afSavanna</map>
     <map>afSudd</map>
+    <map>afSudd</map>
+    <map>afSwahiliCoast</map>
+    <map>afSwahiliCoast</map>
+    <map>afTassili</map>
     <map>afTassili</map>
     <map>afTripolitania</map>
 </randomMaps>

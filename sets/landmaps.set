@@ -14,12 +14,10 @@
   <map>afDarfur</map>
   <map>afDarfur</map>
   <map>deccan</map>
-  <map>Fertile Crescent</map>
   <map>Gran Chaco</map>
   <map>Great Plains</map>
   <map>afGreat Rift</map>
   <map>afGreat Rift</map>
-  <map>afHighlands</map>
   <map>afHighlands</map>
   <map>Himalayas</map>
   <map>himalayasUpper</map>
@@ -47,4 +45,14 @@
   <map>afTassili</map>
   <map>Texas</map>
   <map>Yukon</map>
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afDunes</map>
+  <map>afDunes</map>
+  <map>afDunes</map>
+  <map>afDunes</map>
 </randomMaps>

@@ -12,23 +12,18 @@
   <map>Colorado</map>
   <map>Dakota</map>
   <map>afDarfur</map>
-  <map>afDarfur</map>
   <map>deccan</map>
   <map>Fertile Crescent</map>
   <map>Florida</map>
   <map>afGold Coast</map>
-  <map>afGold Coast</map>
   <map>Gran Chaco</map>
   <map>Great Lakes</map>
   <map>Great Plains</map>
-  <map>Great Plains</map>
   <map>afGreat Rift</map>
   <map>afGreat Rift</map>
-  <map>afHighlands</map>
   <map>afHighlands</map>
   <map>Himalayas</map>
   <map>Hokkaido</map>
-  <map>afHorn</map>
   <map>afHorn</map>
   <map>Indonesia</map>
   <map>Kamchatka</map>
@@ -40,7 +35,6 @@
   <map>Mexico</map>
   <map>Mongolia</map>
   <map>New England</map>
-  <map>afNiger Delta</map>
   <map>afNiger Delta</map>
   <map>afNile Valley</map>
   <map>afNile Valley</map>
@@ -55,8 +49,6 @@
   <map>Saguenay</map>
   <map>afSavanna</map>
   <map>afSavanna</map>
-  <map>afSavanna</map>
-  <map>afSavanna</map>
   <map>Siberia</map>
   <map>Sonora</map>
   <map>afSudd</map>
@@ -64,6 +56,17 @@
   <map>afTassili</map>
   <map>afTassili</map>
   <map>afTripolitania</map>
-  <map>afTripolitania</map>
   <map>Yukon</map>
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afSahel</map>  
+  <map>afDunes</map>
+  <map>afDunes</map>
+  <map>afIvoryCoast</map>
+  <map>afIvoryCoast</map>
+  <map>afIvoryCoast</map>
+  <map>afIvoryCoast</map>
 </randomMaps>

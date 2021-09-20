@@ -53,8 +53,6 @@
   <map>Mongolia</map>
   <map>New England</map>
   <map>afNiger Delta</map>
-  <map>afNiger Delta</map>
-  <map>afNiger River</map>
   <map>afNiger River</map>
   <map>afNile Valley</map>
   <map>afNile Valley</map>
@@ -87,5 +85,21 @@
   <map>Unknown</map>
   <map>yellow riverDry</map>
   <map>Yucatan</map>
-  <map>Yukon</map>
+  <map>Yukon</map>  
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afDunes</map>
+  <map>afDunes</map>
+  <map>afDunes</map>
+  <map>afDunes</map>
+  <map>afIvoryCoast</map>
+  <map>afIvoryCoast</map>
+  <map>afIvoryCoast</map>
+  <map>afIvoryCoast</map>  
+  <map>afSwahiliCoast</map>
+  <map>afSwahiliCoast</map>
+  <map>afSwahiliCoast</map>
+  <map>afSwahiliCoast</map>
 </randomMaps>

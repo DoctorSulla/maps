@@ -486,6 +486,11 @@
     <string _locid="19900" symbol="cStringPleaseWaitAOMExit">Please wait while the game exits...</string>
     <string _locid="19901" symbol="cStringLoadingScenario">Loading Scenario...</string>
     <string _locid="19902" symbol="cStringLoadingFile">Loading %s ...</string>
+    <string _locid="19903" symbol="cStringOOSRestoreHost">The game has gone out of sync. We will attempt to restore the game with a recent save.</string>
+    <string _locid="19904" symbol="cStringOOSRestoreClient">The game has gone out of sync. We are attempting to restore the game with a recent save. Please wait</string>
+    <string _locid="19905" symbol="cStringOOSRestoreHostError">We have been unable to restore the game. Please find %s in the Savegame folder if you wish to manually restore the game.</string>
+    <string _locid="19906" symbol="cStringOOSRestoreHostErrorAlt">We have been unable to restore the game. Please find an auto save in the Savegame folder if you wish to manually restore the game.</string>
+    <string _locid="19907" symbol="cStringOOSRestoreClientError">Sorry we have been unable to restore the game.</string>
     <string _locid="19920" symbol="cStringNextMapRollover">View next page of maps.</string>
     <string _locid="19921" symbol="cStringPrevMapRollover">View previous page of maps.</string>
     <string _locid="19922" symbol="cStringPageNumber">Page %d</string>
@@ -2147,7 +2152,7 @@
     <string _locid="25250">NAT Rainforest Tupi</string>
     <string _locid="25252">Tupi Animal Lore enables your Heroes to train tamed Cougars.</string>
     <string _locid="25253">Tupi Animal Lore</string>
-    <string _locid="25261">Cherokee weaving techniques improve dry storage. Dock, Port, Market, Livestock Pen, Mill, Estate, Livestock Market and Granary improvements no longer cost Wood.</string>
+    <string _locid="25261">Cherokee weaving techniques improve dry storage. Dock, Port, Market, Livestock Pen, Mill, Estate, Livestock Market and Granary improvements cost less Wood.</string>
     <string _locid="25262">Cherokee Basket Weaving</string>
     <string _locid="25267">Explorer's Camp</string>
     <string _locid="25269">Powerful, defensive building that can also train units. Can only be sent from the Home City.</string>
@@ -4409,7 +4414,7 @@
     <string _locid="31785" symbol="cStringGCStatsLine0">Team</string>
     <string _locid="31786" symbol="cStringGCStatsLine0Col2">% of New World Controlled</string>
     <string _locid="31787" symbol="cStringMouseoverTrainingUnitFormat2" comment="1 - number, 2 - unit name, 3 - population">%1!d! %2!s! (%3!d! Pop)</string>
-    <string _locid="31788" symbol="cStringMouseoverTrainingUnitFormat3" comment="1 - number, 2 - unit name, 3 -population">%1d Free %2s (%3d Pop)</string>
+    <string _locid="31788" symbol="cStringMouseoverTrainingUnitFormat3" comment="1 - number, 2 - unit name, 3 -population">%1!d! Free %2!s! (%3!d! Pop)</string>
     <string _locid="31789" symbol="cStringMouseoverTrainingUnitFormat4" comment="1 - number, 2 - unit name">%1d Free %2s</string>
     <string _locid="31790">Initially Discovered</string>
     <string _locid="31795">Nootka warrior attack and hitpoints increased.</string>
@@ -15756,7 +15761,7 @@
     <string _locid="45360">Zapotec Cult of the Dead</string>
     <string _locid="45361">Using Zapotec agricultural methods, your Villagers gather from Berry Bushes, Mills, Farms, Estates, Cherry Orchards, Rice Paddies and Fields faster.</string>
     <string _locid="45362">Zapotec Food of the Gods</string>
-    <string _locid="45363">Mountain-dwelling allies of the Zapotec provide you with approximately 100 high-altitude Wood in crates for every 2 minutes of game length, up to 30 minutes.</string>
+    <string _locid="45363">Mountain-dwelling allies of the Zapotec provide you with 100 high-altitude Wood in crates for every 2 minutes of game length, up to 30 minutes.</string>
     <string _locid="45364">Zapotec Cloud People</string>
     <string _locid="45365">Using Cheyenne methods, you are able to mount your cavalry more quickly, which trains them faster.</string>
     <string _locid="45366">Cheyenne Horse Trading</string>
@@ -15766,7 +15771,7 @@
     <string _locid="45370">Huron Fish Wedding</string>
     <string _locid="45371">The Huron Sun Cult increases the number of Huron Mantlets you can train.</string>
     <string _locid="45372">Huron Sun Ceremony</string>
-    <string _locid="45373">The Huron mercantile monopoly permits you to get approximately 1 Mantlet for every 2 minutes of game length, up to 30 minutes.</string>
+    <string _locid="45373">The Huron mercantile monopoly permits you to get 1 Mantlet for every 2 minutes of game length, up to 30 minutes.</string>
     <string _locid="45374">Huron Trade Dominance</string>
     <string _locid="45375">Wall hitpoints greatly increased.</string>
     <string _locid="45376">Wall Ceremony</string>
@@ -15792,7 +15797,7 @@
     <string _locid="45396">Legendary Ironwood</string>
     <string _locid="45397">Klamath tactical skill enables your Klamath warriors to inflict far more damage.</string>
     <string _locid="45398">Klamath Strategy</string>
-    <string _locid="45399">It's the early fall Huckleberry Feast! You get approximately 100 Food in crates for every 3 minutes of game length, up to 30 minutes.</string>
+    <string _locid="45399">It's the early fall Huckleberry Feast! You get 100 Food in crates for every 3 minutes of game length, up to 30 minutes.</string>
     <string _locid="45400">Klamath Huckleberry Feast</string>
     <string _locid="45401">Klamath dedication to labor and ownership causes all your Villagers to gather slightly more quickly.</string>
     <string _locid="45402">Klamath Work Ethos</string>
@@ -15819,7 +15824,7 @@
     <string _locid="45423">Morning Star</string>
     <string _locid="45424">Coyote Combat Shipment has arrived.</string>
     <string _locid="45425">Morning Star Shipment has arrived.</string>
-    <string _locid="45426">Formal European recognition of the Mapuche nation provides approximately 100 Coin in crates for every 2 minutes of game length, up to 30 minutes.</string>
+    <string _locid="45426">Formal European recognition of the Mapuche nation provides 100 Coin in crates for every 2 minutes of game length, up to 30 minutes.</string>
     <string _locid="45427">Mapuche Treaty of Quillin</string>
     <string _locid="45428">Mapuche guerrilla techniques make your hand infantry even more deadly against buildings.</string>
     <string _locid="45429">Mapuche Tactics</string>
@@ -16105,13 +16110,13 @@
     <string _locid="45709">Rawhide Covers</string>
     <string _locid="45710">Canoe and War Canoe attack increased.</string>
     <string _locid="45711">Flaming Arrows</string>
-    <string _locid="45712">The Strawberry Festival provides you with approximately 500 Food for every 10 minutes of game length, up to 30 minutes.</string>
+    <string _locid="45712">The Strawberry Festival provides you with 500 Food for every 10 minutes of game length, up to 30 minutes.</string>
     <string _locid="45713">Strawberry Festival</string>
-    <string _locid="45714">A successful Maple Festival provides you with approximately 500 Coin for every 10 minutes of game length, up to 30 minutes.</string>
+    <string _locid="45714">A successful Maple Festival provides you with 500 Coin for every 10 minutes of game length, up to 30 minutes.</string>
     <string _locid="45715">Maple Festival</string>
     <string _locid="45716">A successful New Year Festival provides you with 2000 Experience Points.</string>
     <string _locid="45717">New Year Festival/Inti Festival</string>
-    <string _locid="45718">Knowledge of the surrounding woodlands provides you with approximately 500 Wood for every 10 minutes of game length, up to 30 minutes.</string>
+    <string _locid="45718">Knowledge of the surrounding woodlands provides you with 500 Wood for every 10 minutes of game length, up to 30 minutes.</string>
     <string _locid="45719">Woodland Dwellers</string>
     <string _locid="45720">Call to war! Ten Tomahawks arrive at your Home City Gather Point.</string>
     <string _locid="45721">Haudenosaunee Raiding Party</string>
@@ -16284,7 +16289,7 @@
     <string _locid="45895">Wealth Lore</string>
     <string _locid="45896">A successful New Year Festival provides you with 2000 experience points.</string>
     <string _locid="45897">New Year Festival</string>
-    <string _locid="45898">The War Arrow! You get approximately 1 Tokala Soldier for every 3 minutes of game length, up to 30 minutes.</string>
+    <string _locid="45898">The War Arrow! You get 1 Tokala Soldier for every 3 minutes of game length, up to 30 minutes.</string>
     <string _locid="45899">Lakota Tokala Soldiers</string>
     <string _locid="45900">The War Arrow! Three Tokala Soldiers arrive at your Home City dropoff point.</string>
     <string _locid="45901">Lakota Raiding Party</string>
@@ -16545,7 +16550,7 @@
     <string _locid="46158">This wagon is carrying Coin.</string>
     <string _locid="46159">Supply Wagon (Coin)</string>
     <string _locid="46160">SPC XP Jeff Wagon (Coin)</string>
-    <string _locid="46161">Worship of the Corn God, Cinteotl, recruits approximately 1 Eagle Runner Knight for every 2 minutes of game length, up to 30 minutes.</string>
+    <string _locid="46161">Worship of the Corn God, Cinteotl, recruits 1 Eagle Runner Knight for every 2 minutes of game length, up to 30 minutes.</string>
     <string _locid="46162">Cinteotl Worship</string>
     <string _locid="46163">The Aztecs answer the call to battle. Every War Hut spawns four Puma Men!</string>
     <string _locid="46164">Furor Azteca</string>
@@ -16555,19 +16560,19 @@
     <string _locid="46168">Aztec Raiding Party</string>
     <string _locid="46169">The War God commands! Twelve Jaguar Prowl Knights assemble at your Home City Gather Point.</string>
     <string _locid="46170">Aztec War Party</string>
-    <string _locid="46171">Free cotton armor recruits approximately 1 Puma Spearman for every 2 minutes of game length, up to 30 minutes.</string>
+    <string _locid="46171">Free cotton armor recruits 1 Puma Spearman for every 2 minutes of game length, up to 30 minutes.</string>
     <string _locid="46172">Barometz</string>
-    <string _locid="46173">The Aztec nobles rally, giving you approximately 1 Arrow Knight for every 2 minutes of game length, up to 30 minutes.</string>
+    <string _locid="46173">The Aztec nobles rally, giving you 1 Arrow Knight for every 2 minutes of game length, up to 30 minutes.</string>
     <string _locid="46174">War Song</string>
     <string _locid="46175">The Aztec nobility rises to defend their land. Every Nobles Hut spawns four Arrow Knights.</string>
     <string _locid="46176">Pillage</string>
-    <string _locid="46177">Worship of the God of Wealth, Tezcatlipoca, brings forth approximately 1 Skull Knight for every 4 minutes of game length, up to 30 minutes.</string>
+    <string _locid="46177">Worship of the God of Wealth, Tezcatlipoca, brings forth 1 Skull Knight for every 4 minutes of game length, up to 30 minutes.</string>
     <string _locid="46178">Tezcatlipoca Worship</string>
     <string _locid="46179">Warchief has more hit points.</string>
     <string _locid="46180">Royal Blood</string>
     <string _locid="46181">Worship of Cipactli, the sea monster, musters four Tlaloc Canoes.</string>
     <string _locid="46182">Cipactli Worship</string>
-    <string _locid="46183">Emphasis on the Serpent Goddess, Coatlicue, summons approximately 1 Otontin Slinger for every 2 minutes of game length, up to 30 minutes.</string>
+    <string _locid="46183">Emphasis on the Serpent Goddess, Coatlicue, summons 1 Otontin Slinger for every 2 minutes of game length, up to 30 minutes.</string>
     <string _locid="46184">Coatlicue Worship</string>
     <string _locid="46185" gamecharacter="Holme" soundfilename="XHOLM8000" portraitfilename="resources\art\units\spc\sheriff_holmes\sheriff_holmes_igc_icon.png">You the Falcon Company man? Chayton Black?</string>
     <string _locid="46186" gamecharacter="Chayton" soundfilename="XCHAY8000" portraitfilename="resources\art\units\spc\chayton\chayton_igc_icon.png">That's me.</string>
@@ -17367,7 +17372,7 @@
     <string _locid="46983">Grenadiers have an increased burst radius and do more damage to buildings.</string>
     <string _locid="46984">Incendiary Grenades</string>
     <string _locid="46985">13 Cherokee Allies</string>
-    <string _locid="46986">All Native American allies are improved to Champion level.</string>
+    <string _locid="46986">All Native Warriors are upgraded to Champion level.</string>
     <string _locid="46987">Blood Brothers</string>
     <string _locid="46988">Gribeauval System shipment has arrived.</string>
     <string _locid="46989">Blood Brothers Shipment has arrived.</string>
@@ -19746,6 +19751,136 @@
     <string _locid="49436">The African Royals DLC enabled!</string>
     <string _locid="49437" symbol="cStringNewDLCEnabled">New DLC Enabled!</string>
     <string _locid="49438" symbol="cStringDLCAvailable">DLC Available!</string>
+    <string _locid="49439">Challenges</string>
+    <string _locid="49440">African Royal DLC required</string>
+    <string _locid="49441">Unlock more challenges and rewards by purchasing the African Royal DLC.</string>
+    <string _locid="49442">Profile Icon Unlock - Xbox themed version of the Gatling Camel</string>
+    <string _locid="49443">Train 50 Cavalry in a Skirmish or Multiplayer Game.</string>
+    <string _locid="49444">Ally with all Native Civilizations in a Skirmish or Multiplayer Game.</string>
+    <string _locid="49445">Deal 1000 damage with Native Warriors in a single Skirmish or Multiplayer Game.</string>
+    <string _locid="49446">Build 2 Forts as Portuguese, French or Swedish in a single Skirmish or Multiplayer Game.</string>
+    <string _locid="49447">Defeat 15 Treasure Guardians.</string>
+    <string _locid="49448">Gain 1500 Coin or Wood from selling Herdables in a single Skirmish or Multiplayer Match.\nTips: You can sell cattle without even selecting a Livestock Market, by simply ctrl-clicking the Wood or Coin Icons in the global UI.</string>
+    <string _locid="49449">Earn 500 Influence from Trading Posts placed on Trade Routes.\nTips: Trading Posts can be toggled to produce Influence, even before the Stagecoach upgrade.</string>
+    <string _locid="49450">Cause a Treasure Guardian to defeat another using the Emir's Chaos Ability in a Skirmish or Multiplayer Game.\nTips: Chaos affects stronger Guardians for a longer duration.</string>
+    <string _locid="49451">Switch your University to trickle Experience instead of Influence.\nTips: Experience is more important in the early game, but the Hausa also need to secure a steady income of Influence in the mid and late game to produce Cannons, Natives, Mercenaries, and more.</string>
+    <string _locid="49452">Create a maximum trickle University, by placing it near a Town Center, Palace and Trading Post.\nTips: For maximum Influence income, each University must have its own Town Center, Trade Post and Palace.</string>
+    <string _locid="49453">Unlock and keep the Honey Badger cheat unit</string>
+    <string _locid="49454">Market Day</string>
+    <string _locid="49455">The center square filled with colorful market stalls.</string>
+    <string _locid="49456">Sunset Lighting</string>
+    <string _locid="49457">The city with the sun setting.</string>
+    <string _locid="49458">Taj Mahal (original)</string>
+    <string _locid="49459">The original version of the Taj Mahal.</string>
+    <string _locid="49460">Taj Mahal (red)</string>
+    <string _locid="49461">The red version of the Taj Mahal.</string>
+    <string _locid="49462">Fortress Tower (blue tint)</string>
+    <string _locid="49463">The Fortress Tower with blue tint brick work.</string>
+    <string _locid="49464">Fortress Tower (brown)</string>
+    <string _locid="49465">The Fortress Tower with brown brick work and red columns and roof.</string>
+    <string _locid="49466">Customs House (original)</string>
+    <string _locid="49467">The original version of the Customs House.</string>
+    <string _locid="49468">Customs House (gold and white)</string>
+    <string _locid="49469">The gold and white version of the Customs House with green covers.</string>
+    <string _locid="49470">Merchant's Guild (red)</string>
+    <string _locid="49471">The red version of the Merchant's Guild</string>
+    <string _locid="49472">Merchant's Guild (blue)</string>
+    <string _locid="49473">The blue version of the Merchant's Guild</string>
+    <string _locid="49474">Emperor's Treasury (original)</string>
+    <string _locid="49475">The original version of the Emperor's Treasury.</string>
+    <string _locid="49476">Emperor's Treasury (white)</string>
+    <string _locid="49477">The Emperor's Treasury with a white and blue brick finish.</string>
+    <string _locid="49478">Fishing Boats</string>
+    <string _locid="49479">Display fishing boats by the coast.</string>
+    <string _locid="49480">Customs House (original)</string>
+    <string _locid="49481">The original version of the Customs House.</string>
+    <string _locid="49482">Customs House (mahogany red and black)</string>
+    <string _locid="49483">The mahogany red and black version of the Customs House.</string>
+    <string _locid="49484">Merchant's Guild (original)</string>
+    <string _locid="49485">The original version of the Merchant's Guild.</string>
+    <string _locid="49486">Merchant's Guild (red and black)</string>
+    <string _locid="49487">The red and black version of the Merchant's Guild.</string>
+    <string _locid="49488">Imperial Court (original)</string>
+    <string _locid="49489">The original version of the Imperial Court.</string>
+    <string _locid="49490">Imperial Court (imperial gold)</string>
+    <string _locid="49491">The imperial gold version of the Imperial Court.</string>
+    <string _locid="49492">Fortress Tower (original)</string>
+    <string _locid="49493">The original version of the Fortress Tower.</string>
+    <string _locid="49494">Fortress Tower (red and blue)</string>
+    <string _locid="49495">The red and blue version of the Fortress Tower.</string>
+    <string _locid="49496">Emperor's Treasury (original)</string>
+    <string _locid="49497">The original version of the Emperor's Treasury.</string>
+    <string _locid="49498">Emperor's Treasury (white and oak)</string>
+    <string _locid="49499">The white and oak version of the Emperor's Treasury.</string>
+    <string _locid="49500">Kite Festival</string>
+    <string _locid="49501">The citizens of Japan celebrating the Hamamatsu Kite Festival.</string>
+    <string _locid="49502">Japanese fishing boats</string>
+    <string _locid="49503">Display japanese fishing boats by the Merchant's Guild.</string>
+    <string _locid="49504">Snow Monkeys</string>
+    <string _locid="49505">Snow monkeys running loose in the city.</string>
+    <string _locid="49506">Kamihinokinai Paper Balloon Festival - Lanterns</string>
+    <string _locid="49507">Lantern decorations from building to building for the Kamihinokinai Paper Balloon Festival.</string>
+    <string _locid="49508">Monsoon Season</string>
+    <string _locid="49509">The city during the monsoon season.</string>
+    <string _locid="49510">Snowy Season</string>
+    <string _locid="49511">The city during the snowy season.</string>
+    <string _locid="49512">Kamihinokinai Paper Balloon Festival - Water Lanterns</string>
+    <string _locid="49513">Water lanterns floating by the harbor for the Kamihinokinai Paper Balloon Festival.</string>
+    <string _locid="49514">Deal 1500 damage with Maigadi.\nTips: Maigadi are slow, but powerful Heavy Infantry, especially when engaging in melee.</string>
+    <string _locid="49515">Research 6 unique technologies at your Mountain Monastery or University.\nTips: Age up technologies can be researched for Influence, in the University for Hausa and in the Monastery for Ethiopia.</string>
+    <string _locid="49516">Train 20 Mercenaries from the Palace.\nTips: Saloon/Tavern Mercenaries appear in the Palace for African Civilizations.</string>
+    <string _locid="49517">Build 3 Watch Towers as the Ethiopians or Hausa in a single Skirmish or Multiplayer Game.\nTips: African Civilizations hire Outlaws at the Tower.</string>
+    <string _locid="49518">Build 10 Granaries in a single Skirmish or Multiplayer match.\nTips: Granaries are free, but take a while to construct. </string>
+    <string _locid="49519">Inspire a Building with a Griot from your University.\nTips: Griots can increase train and research speed of buildings, heal allies, and slow the attack speed of enemies, even artillery.</string>
+    <string _locid="49520">Have 20 fully fattened Herdables at the same time.\nTips: Fully fattened Cows trickle influence fast, but selling some at a good market price can be even better.</string>
+    <string _locid="49521">Gather 2000 Food from Huntables, Herdables, Fields, or Berries with Villagers buffed by a Granary.\nTips: Granaries boost all food income for nearby Villagers.</string>
+    <string _locid="49522">Eat a second cow before clicking up to the Commerce Age.\nTips: Livestock allows the African Civilizations to be very versatile, sell a cow to build your first House or University, age up quickly by eating them early, or sell one to train several more as an investment for later.</string>
+    <string _locid="49523">Hit 5 targets with a single shot from the Sebastopol Mortar in a Skirmish or Multiplayer Game.\nTips: The Sebastopol Mortar can be switched to explosive shot to deal less damage in a wider radius.</string>
+    <string _locid="49524">Earn 1000 Influence from Mountain Monasteries.\nTips: Mountain Monasteries can gather Coin faster and the ratio at which Villagers and Abuns gather Influence and Coin from them can be toggled to fit your strategy.</string>
+    <string _locid="49525">Use Abuns to gather 1000 Coin from a Mountain Monastery.\nTips: Abuns and Mountain Monasteries can also heal nearby units, even during battle.</string>
+    <string _locid="49526">Train 10 Gatling Camels from the Palace as the Ethiopians in a Skirmish or Multiplayer Game.\nTips: Gatling Camels can only be trained after aging up with the Arabs Alliance as the Ethiopians.</string>
+    <string _locid="49527">Profile Icon Unlock - Big Benny</string>
+    <string _locid="49528">Unlock the Ethiopia and Hausa unique Explorer skins</string>
+    <string _locid="49529">Explorer: {0}</string>
+    <string _locid="49530">Alpha Settings</string>
+    <string _locid="49531">All alpha settings below are under development and may cause issues, such as graphical and performance issues.</string>
+    <string _locid="49532">Enable Ludicrous Zoom</string>
+    <string _locid="49533">Allows the camera to zoom out to an extreme extent. Units and buildings will be smaller in the view and may be harder to individually distinguish. Enabling this option will impact performance on lower end PCs, such as laptops or desktops with low end or integrated GPUs.</string>
+    <string _locid="49534">Honey Badger don't care!</string>
+    <string _locid="49535">Sort by priority of mods.</string>
+    <string _locid="49536">Sort by subscribed mods.</string>
+    <string _locid="49537">Sort by mod created.</string>
+    <string _locid="49538">Sort by mod updated.</string>
+    <string _locid="49539">Sort by number of likes per mod.</string>
+    <string _locid="49540">Sort by number of downloads.</string>
+    <string _locid="49541">Sort by number of files in mod.</string>
+    <string _locid="49542">Sort by total file size of the mod.</string>
+    <string _locid="49543">Sort by mods published.</string>
+    <string _locid="49544">This feature is still under development. Once finalized, it is intended for ultra high end gaming PCs with advanced dedicated graphics cards. Enabling this option will significantly impact performance. Are you sure you want to enable this option?</string>
+    <string _locid="49545">Select a different skin for your Explorer.</string>
+    <string _locid="49546">Misty Morning</string>
+    <string _locid="49547">The city in the morning with mist.</string>
+    <string _locid="49548">Enable tracking challenges</string>
+    <string _locid="49549">Turn on to display challenges tracking panel.</string>
+    <string _locid="49550">Elephant Parade</string>
+    <string _locid="49551">Elephants parading through the city.</string>
+    <string _locid="49552">Holi Colour Festival Part 1</string>
+    <string _locid="49553">The people of India celebrating the Holi Colour festival in the city sqaure.</string>
+    <string _locid="49554">Holi Colour Festival Part 2</string>
+    <string _locid="49555">The people of India celebrating the Holi Colour festival with coloured powder.</string>
+    <string _locid="49556">Profile Icon Unlock - Javelin Rider</string>
+    <string _locid="49557">Profile Icon Unlock - Fulani Archer</string>
+    <string _locid="49558">Profile Icon Unlock - Dahomey Amazon</string>
+    <string _locid="49559">Profile Icon Unlock - Askari</string>
+    <string _locid="49560">Profile Icon Unlock - Zebu Cattle</string>
+    <string _locid="49561">Profile Icon Unlock - Emir</string>
+    <string _locid="49562">Profile Icon Unlock - Maigadi</string>
+    <string _locid="49563">Profile Icon Unlock - Desert Raider</string>
+    <string _locid="49564">Profile Icon Unlock - Sebastopol Mortar</string>
+    <string _locid="49565" symbol="cStringCheatCode">Cheat Code: "{0}"</string>
+    <string _locid="49566">View and Customize the appearance of your Explorer</string>
+    <string _locid="49567">Select to apply cosmetic or explorer name change.</string>
+    <string _locid="49568">Select to begin the next challenge!</string>
     <string _locid="60001" symbol="cStringCivNameJapanese">Japanese</string>
     <string _locid="60002" symbol="cStringCivNameChinese">Chinese</string>
     <string _locid="60003" symbol="cStringCivNameIndians">Indians</string>
@@ -20853,11 +20988,11 @@
     <string _locid="61105">"This is not our war, but if you build a Trading Post here perhaps we can work together."</string>
     <string _locid="61106">Sufi Mosque</string>
     <string _locid="61107">Socket Sufi</string>
-    <string _locid="61108">Sufi scholars provide education about Islamic law, increasing Settler and Villager build limits by +10.</string>
+    <string _locid="61108">Sufi scholars provide education about Islamic law, increasing Settler, Villager and Coureur des Bois build limits.</string>
     <string _locid="61109">Sharia</string>
     <string _locid="61110">Implementation of daily fasting decreases Villager hitpoints but increases all gather rates.</string>
     <string _locid="61111">Fasting</string>
-    <string _locid="61112">Preparation for the Pilgrimage to Mecca provides approximately 1 Fattened Goat for every 2 minutes of game time.</string>
+    <string _locid="61112">Preparation for the Pilgrimage to Mecca provides 1 Fattened Goat for every 2 minutes of game time, up to 30 minutes.</string>
     <string _locid="61113">Pilgrimage</string>
     <string _locid="61114">Jesuit builders give their design input to all buildings, increasing building hitpoints.</string>
     <string _locid="61115">Flying Buttress</string>
@@ -30615,7 +30750,7 @@
     <string _locid="71043">Browse Casual Games</string>
     <string _locid="71044">Ranked Game Search</string>
     <string _locid="71045">Game Sizes:</string>
-    <string _locid="71046">Game Types:</string>
+    <string _locid="71046">Game Mode:</string>
     <string _locid="71047">Team Members:</string>
     <string _locid="71048">Search</string>
     <string _locid="71049">Invite Teammate</string>
@@ -30661,9 +30796,9 @@
     <string _locid="71089">Join a game of supremacy or deathmatch in a ranked match against other players.</string>
     <string _locid="71090">Change filter on password protected settings.</string>
     <string _locid="71091">Change filter on a specific map.</string>
-    <string _locid="71092">Change filter on a specific game type.</string>
+    <string _locid="71092">Change filter on a specific game mode.</string>
     <string _locid="71093">Change filter on region settings.</string>
-    <string _locid="71094">Select at least one game type and game size to begin search.</string>
+    <string _locid="71094">Select at least one game mode and game size to begin search.</string>
     <string _locid="71095" symbol="cStringESOPromptLeaveClan">Are you sure you wish to leave this Clan?</string>
     <string _locid="71097">Show Game Menu</string>
     <string _locid="71098">Hide Game Menu</string>
@@ -30700,7 +30835,7 @@
     <string _locid="71129">The Summer Palace is producing the Mongolian Army.\n2 Keshik\n2 Steppe Riders</string>
     <string _locid="71130">Ranged cavalry, good against cavalry / raiding cavalry</string>
     <string _locid="71131">Fast, flexible army of heavy and ranged cavalry.\n2 Keshik: Fast ranged cavalry that is good against heavy cavalry.\n2 Steppe Riders: Hand cavalry good against villagers and buildings.</string>
-    <string _locid="71132">Select which game type you wish to play.</string>
+    <string _locid="71132">Select which game mode you wish to play.</string>
     <string _locid="71133">Select which game rules you wish to play.</string>
     <string _locid="71134">King of the Hill starts with a central fort which can be captured and held for victory.</string>
     <string _locid="71135">Select which region you wish to play in.</string>
@@ -32512,8 +32647,7 @@
     <string _locid="80708">SPC Gazelle</string>
     <string _locid="80709">
     </string>
-    <string _locid="80710">
-    </string>
+    <string _locid="80710">Agile corsair skirmisher with high ranged armor. Good against heavy infantry and light ranged cavalry.</string>
     <string _locid="80711">Corsair skirmisher armed with a Kabyle musket to ambush infantry, villagers, and rival pirates.</string>
     <string _locid="80712">Corsair Captain</string>
     <string _locid="80713">REV Corsair Captain</string>
@@ -32789,7 +32923,7 @@
     <string _locid="80983">Charro</string>
     <string _locid="80984">Ships 10 Vaqueros, 10 Cows and 1 Homestead Wagon.</string>
     <string _locid="80985">10 Vaqueros, 10 Cows, 1 Homestead Wagon</string>
-    <string _locid="80986">Ships 8 semi-fattened Cows, 1 Vaquero and 1 Homestead Wagon.</string>
+    <string _locid="80986">Ships 10 semi-fattened Cows, 10 Vaquero and 1 Homestead Wagon.</string>
     <string _locid="80987">Ships a Fort Wagon to defend the borderland.</string>
     <string _locid="80988">11 Renegados</string>
     <string _locid="80989">11 Chinacos</string>
@@ -33917,9 +34051,9 @@
     <string _locid="90106">Scale HUD</string>
     <string _locid="90107">Scales the in game HUD.</string>
     <string _locid="90108">Find House, Longhouse, Teepee, Shrine, Village or Torp</string>
-    <string _locid="90109">Find Mill, Farm or Rice Paddy</string>
-    <string _locid="90110">Find Church, Mosque, Community Plaza or Monastery</string>
-    <string _locid="90111">Find Barracks, Blockhouse, War Hut or War Academy</string>
+    <string _locid="90109">Find Mill, Farm, Rice Paddy or Field</string>
+    <string _locid="90110">Find Church, Mosque, Community Plaza, Monastery, Mountain Monastery or University</string>
+    <string _locid="90111">Find Barracks, Blockhouse, War Hut, War Academy or War Camp</string>
     <string _locid="90112">Find Town Center or Capitol</string>
     <string _locid="90113">Find Stables, Corral, Nobles Hut, Caravanserai or Kallanka</string>
     <string _locid="90114">Find Artillery Foundry, Siege Workshop or Castle</string>
@@ -33983,7 +34117,7 @@
     <string _locid="90172">Create clan with given details.</string>
     <string _locid="90173">Browse for clans.</string>
     <string _locid="90174">Close this dialog.</string>
-    <string _locid="90175">Select a game type.</string>
+    <string _locid="90175">Select a game mode.</string>
     <string _locid="90176">Select a rule set.</string>
     <string _locid="90177">Click to add a password.</string>
     <string _locid="90178">Host a game with given details.</string>
@@ -34006,7 +34140,7 @@
     <string _locid="90195">Big Ability/Medium Button 3</string>
     <string _locid="90196">War Dhow/Xebec</string>
     <string _locid="90300">Settlers gather more quickly instead of becoming Revolutionaries and can garrison in Trek Wagons for transport and protection. Ships 3 Trek Wagons.</string>
-    <string _locid="90301">Enables Coureurs to be trained from Town Centers. Permits you to train 30 Coureurs in addition to the usual Villager build limit.</string>
+    <string _locid="90301">Enables Huguenots (Coureur des Bois) to be trained from Town Centers. Permits you to train 30 Coureurs in addition to the usual Villager build limit.</string>
     <string _locid="90302">Huguenots</string>
     <string _locid="90303">5 Military Wagons +2 Trek Wagons</string>
     <string _locid="90304">3 Homestead Wagons +2 Trek Wagons</string>
@@ -34608,7 +34742,7 @@
     <string _locid="91465" symbol="cStringErrorLoadingScenarioFileDefaultError">Could not load scenario %s</string>
     <string _locid="91466">Toggle Extended Minimap</string>
     <string _locid="91500" symbol="cStringCivNameSwedish">Swedes</string>
-    <string _locid="91501" symbol="cStringCivRolloverSwedish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTorps gather nearby resources. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. Mercenary shipments are cheaper and arrive more quickly. Advanced improvements available at the Arsenal.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;Pikeman (Dalkarl) and Hakkapelit (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarolean, Leather Cannon and Hakkapelit\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
+    <string _locid="91501" symbol="cStringCivRolloverSwedish">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nTorps gather nearby resources. Jaeger and Black Rider mercenaries can always be recruited from the Tavern. Mercenary shipments are cheaper and arrive more quickly. Advanced improvements available at the Arsenal.\n&lt;color=1.0, 1.0, 0.0&gt;Royal guard units:&lt;/color&gt;\nPikeman (Dalkarl) and Hakkapelit (Drabant)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarolean, Leather Cannon and Hakkapelit\n\nThe Swedish Empire became one of the greatest in Europe through innovation in military tactics and logistics. Its artillery and cavalry charges dominated the battlefields, particularly during the Thirty Years War. Despite a relatively small population, the Swedes fielded some of the largest armies in Europe, partly through the recruitment of mercenaries.</string>
     <string _locid="91502">Stockholm</string>
     <string _locid="91503">Nils Matsson Kiöping</string>
     <string _locid="91504">Gustavus Adolphus</string>
@@ -34989,13 +35123,13 @@
     <string _locid="91879" symbol="cStringCustomisationCostSingular">(Requires %d point to unlock)</string>
     <string _locid="91880" symbol="cStringCustomisationPrereqMsgBox">Requires the '%s' customization to be unlocked first</string>
     <string _locid="101000" symbol="cStringCivNameEthiopian">Ethiopians</string>
-    <string _locid="101001" symbol="cStringCivRolloverEthiopian">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nFree Mountain Monastery Builder per age.\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nSebastopol Mortar, Abun, Gascenya, Shotel Warrior, Neftenya and Oromo Warrior\n&lt;color=1.0, 1.0, 0.0&gt;Unique building:&lt;/color&gt;\nMountain Monasteries can gather Coin and Influence from Mines when placed upon them.\n\nPlaced on the “Roof of Africa” Ethiopia was able to assert its influence over the surrounding lowlands, thriving in the safety of its mountains. A high ground badly needed against hostile attempts to take the empire down. Ethiopia and its King of kings defied not just its African neighbors but also European colonialization attempts rendering it as one of the few African regions that eluded the talons of European imperial colonialism.</string>
+    <string _locid="101001" symbol="cStringCivRolloverEthiopian">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nGets a free Mountain Monastery Builder with each Age-Up that can be built on top of Mines to gather Influence and Coin.\n&lt;color=1.0, 1.0, 0.0&gt;Age-Up Alliances:&lt;/color&gt; (each grant extra bonuses)\n • Two new technologies at the Mountain Monastary\n • Units/Builders at the Palace or Town Center\n&lt;color=1.0, 1.0, 0.0&gt;Unique Resource:&lt;/color&gt;\nInfluence is a powerful resource spent primarily at the Palace on Native Warriors and Mercenaries. All unlocked features cost Influence. Generate it with Mountain Monasteries, Trading Posts and by controlling large herds of Livestock.\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nSebastopol Mortar, Abun, Gascenya, Shotel Warrior, Neftenya and Oromo Warrior\n\nPlaced on the “Roof of Africa” Ethiopia was able to assert its influence over the surrounding lowlands, thriving in the safety of its mountains. A high ground badly needed against hostile attempts to take the empire down. Ethiopia and its King of kings defied not just its African neighbors but also European colonization attempts rendering it as one of the few African regions that eluded the talons of European imperial colonialism.</string>
     <string _locid="101002">Gondar</string>
     <string _locid="101003">Ras Alula</string>
     <string _locid="101004">Emperor Tewodros</string>
     <string _locid="101005">Emperor Tewodros is a daring and impetuous leader. Working his way from nothing to the pinnacle of power, he is not afraid to take risks to secure victory. Whether it be through swift aggression or savvy battlefield maneuvers, Tewodros will triumph at any cost.</string>
     <string _locid="101010" symbol="cStringCivNameHausa">Hausa</string>
-    <string _locid="101011" symbol="cStringCivRolloverHausa">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nEach Shipment also delivers 1 Sanga cattle.\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nMaigadi, Griot, Fulani Archers, Raider and Lifidi Knight\n&lt;color=1.0, 1.0, 0.0&gt;Unique building:&lt;/color&gt;\nUniversities research unique technologies, train Griots to inspire their buildings, and generate nfluence from a nearby Town Center, Trading Post and Palace each.\n\nThe wealthy Hausa kingdoms were magnets for merchants, intellectuals, and enemies. Their extensive trade relations and diplomacy enabled them to exert powerful influence over vast stretches of West Africa. The Hausa kings and emirs deployed powerful cavalry armies to compete with each other or conquer neighboring empires.</string>
+    <string _locid="101011" symbol="cStringCivRolloverHausa">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nGets a free Sanga Cattle with all shipments. Universities generate Influence, especially when built in a Kingdom (nearby one Town Center, Palace and Trading Post).\n&lt;color=1.0, 1.0, 0.0&gt;Age-Up Alliances:&lt;/color&gt; (each grant extra bonuses)\n • Two new technologies at the University\n • Units/Builders at the Palace or Town Center\n&lt;color=1.0, 1.0, 0.0&gt;Unique Resource:&lt;/color&gt;\nInfluence is a powerful resource spent primarily at the Palace on Native Warriors and Mercenaries. All unlocked features cost Influence. Generate it with Universities, Trading Posts and by controlling large herds of Livestock.\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nMaigadi, Griot, Fulani Archers, Raider and Lifidi Knight\n\nThe wealthy Hausa kingdoms were magnets for merchants, intellectuals, and enemies. Their extensive trade relations and diplomacy enabled them to exert powerful influence over vast stretches of West Africa. The Hausa kings and emirs deployed powerful cavalry armies to compete with each other or conquer neighboring empires.</string>
     <string _locid="101012">Kano</string>
     <string _locid="101013">Muhammad Rumfa</string>
     <string _locid="101014">Queen Amina</string>
@@ -35035,7 +35169,7 @@
     <string _locid="101048">Oromo Warrior</string>
     <string _locid="101049">CAV Oromo Warrior</string>
     <string _locid="101050">Ranged cavalry</string>
-    <string _locid="101051">Powerful heavy hand cavalry with strong ranged and melee attacks. Attacks faster when closer to the enemy. Good against light infantry.</string>
+    <string _locid="101051">Powerful heavy hand cavalry with ranged and melee attacks. Attacks faster when closer to the enemy. Strong in melee combat.</string>
     <string _locid="101052">Javelin Rider</string>
     <string _locid="101053">CAV Javelin Rider</string>
     <string _locid="101054">Light Ranged Cavalry</string>
@@ -35051,7 +35185,7 @@
     <string _locid="101064">Maigadi</string>
     <string _locid="101065">INF Maigadi</string>
     <string _locid="101066">Heavy Infantry</string>
-    <string _locid="101067">Powerful heavy ranged infantry with a deadly melee attack.</string>
+    <string _locid="101067">Powerful heavy ranged infantry bodyguard with a deadly melee attack.</string>
     <string _locid="101068">Fulani Archer</string>
     <string _locid="101069">INF Fulani Archer</string>
     <string _locid="101070">Fast firing Foot Archer</string>
@@ -35109,18 +35243,18 @@
     <string _locid="101122">Configure this Field to produce Influence.</string>
     <string _locid="101123">This Field is producing Influence.</string>
     <string _locid="101124">Field</string>
-    <string _locid="101125">Slow, but infinite Food and Gold</string>
-    <string _locid="101126">Slow, infinite source of Food or Coin for up to two gatherers. Builds slowly, but is inexpensive.</string>
+    <string _locid="101125">Slow, infinite source of Food or Coin for up to three gatherers.</string>
+    <string _locid="101126">Slow, infinite source of Food or Coin for up to three gatherers. Builds slowly, but is inexpensive.</string>
     <string _locid="101127">Configure this Field to produce Coin.</string>
     <string _locid="101128">Granary</string>
-    <string _locid="101129">Improves nearby Food gather rates and lures hunt</string>
-    <string _locid="101130">Improves nearby Food gather rates and lures hunt. Builds slowly but for free. Contains hunting and farming upgrades.</string>
-    <string _locid="101131">Configure this Mountain Monastery to convert 50% of the Coin gathered from this mine into Influence.</string>
-    <string _locid="101132">Configure this Mountain Monastery to convert 25% of the Coin gathered from this mine into Influence.</string>
-    <string _locid="101133">Configure this Mountain Monastery to gather Coin from this mine.</string>
-    <string _locid="101134">This Mountain Monastery is gathering Coin from this mine with a 50% Influence Rate.</string>
-    <string _locid="101135">This Mountain Monastery is gathering Coin from this mine with a 25% Influence Rate.</string>
-    <string _locid="101136">This Mountain Monastery is gathering Coin from this mine.</string>
+    <string _locid="101129">Improves nearby Food and Field gather rates and lures hunt</string>
+    <string _locid="101130">Improves nearby Food and Field gather rates and lures hunt. Builds slowly but for free. Contains hunting and farming upgrades.</string>
+    <string _locid="101131">Configure all Mountain Monasteries to convert 50% of gathered Coin into Influence.</string>
+    <string _locid="101132">Configure all Mountain Monasteries to convert 25% of gathered Coin into Influence.</string>
+    <string _locid="101133">Configure all Mountain Monasteries to gather Coin.</string>
+    <string _locid="101134">All Mountain Monasteries are gathering Coin with a 50% Influence Rate.</string>
+    <string _locid="101135">All Mountain Monasteries are gathering Coin with a 25% Influence Rate.</string>
+    <string _locid="101136">All Mountain Monasteries are gathering Coin.</string>
     <string _locid="101137">Mountain Monastery</string>
     <string _locid="101138">Can produce Coin and Influence when placed on a Mine.</string>
     <string _locid="101139">Mountain Monastery. Can be placed on a mine and toggle between Coin and Influence generation. Trains Abun and researches Alliance technologies.</string>
@@ -35131,8 +35265,7 @@
     <string _locid="101144" symbol="cStringPlacementFailedSocketWorkers">Mountain Monasteries cannot be placed on mines that are being gathered by enemies.</string>
     <string _locid="101145">Port</string>
     <string _locid="101146">African dock building</string>
-    <string _locid="101147">
-    </string>
+    <string _locid="101147">Crate Influence Jesuit</string>
     <string _locid="101148">Battle Canoe</string>
     <string _locid="101149">SHP Battle Canoe</string>
     <string _locid="101150">Battle Canoe. Warship good at transport</string>
@@ -35140,7 +35273,7 @@
     <string _locid="101152">Cannon Boat</string>
     <string _locid="101153">SHP Cannon Boat</string>
     <string _locid="101154">Mortar ship. Good at long range bombardment.</string>
-    <string _locid="101155">Cannon Boat. Somewhat expensive, but powerful boat good at blasting ships and builders from a distance.</string>
+    <string _locid="101155">Cannon Boat. Somewhat expensive, but powerful boat good at blasting ships and buildings from a distance.</string>
     <string _locid="101156">University</string>
     <string _locid="101157">Hausa research building, generates XP or Influence</string>
     <string _locid="101158">Unique Hausa building that can toggle between XP and Influence generation. Trains Griots and researches Alliance technologies. Most effective when near a Town Center, Trading Post, and Palace.</string>
@@ -35206,7 +35339,7 @@
     <string _locid="101218">Ships 1 Arsenal Wagon. Allows Villagers to build Arsenals and Falconets to be trained at Palaces costing Influence.</string>
     <string _locid="101219">Weapon Imports</string>
     <string _locid="101220">Hyena</string>
-    <string _locid="101221">Ships 5 Desert Warriors and Desert outlaws move and train slightly faster.</string>
+    <string _locid="101221">Desert outlaws move and train faster.</string>
     <string _locid="101222">Yawon Dandi</string>
     <string _locid="101223">GRD Hyena</string>
     <string _locid="101224">Marketplace</string>
@@ -35244,8 +35377,7 @@
     <string _locid="101256">Heavy Riverboats</string>
     <string _locid="101257">Warship hitpoints increased.</string>
     <string _locid="101258">Flock of Flamingos</string>
-    <string _locid="101259">
-    </string>
+    <string _locid="101259">When this Shipment arrives, all of your current Food is exchanged for Influence.</string>
     <string _locid="101260">Feudal Armies</string>
     <string _locid="101261">Ethiopian Wolf</string>
     <string _locid="101262">Animal exchange rates recover faster. Resource exchange rates improved.</string>
@@ -35267,8 +35399,8 @@
     <string _locid="101278">5 Abuns</string>
     <string _locid="101279">Palace Wagon</string>
     <string _locid="101280">VIL Palace Wagon</string>
-    <string _locid="101281">3 Griots</string>
-    <string _locid="101282">5 Griots</string>
+    <string _locid="101281">4 Griots</string>
+    <string _locid="101282">8 Griots</string>
     <string _locid="101283">6 Gascenya</string>
     <string _locid="101284">9 Gascenya</string>
     <string _locid="101285">8 Gascenya</string>
@@ -35287,7 +35419,7 @@
     <string _locid="101298">8 Fulani Archers</string>
     <string _locid="101299">16 Fulani Archers</string>
     <string _locid="101300">10 Fulani Archers</string>
-    <string _locid="101301">6 Raiders</string>
+    <string _locid="101301">5 Raiders</string>
     <string _locid="101302">7 Raiders</string>
     <string _locid="101303">5 Lifidi Knights</string>
     <string _locid="101304">4 Lifidi Knights</string>
@@ -35296,7 +35428,7 @@
     <string _locid="101307">Maigadi hitpoints increased and Maigadi inflict more melee damage against cavalry.</string>
     <string _locid="101308">Sarkin Dogarai</string>
     <string _locid="101309">PROP Rock Church</string>
-    <string _locid="101310">Ships 1 Emir and 9 Maigadi.</string>
+    <string _locid="101310">Ships 1 Hausa Emir (Hero) and a number powerful heavy ranged infantry bodyguards with a deadly melee attack.</string>
     <string _locid="101311">Emir of Kano</string>
     <string _locid="101312">Fulani Archers gain a powerful rifle attack.</string>
     <string _locid="101313">Fula Marksmen</string>
@@ -35307,10 +35439,9 @@
     <string _locid="101318">12 Sudanese Allies</string>
     <string _locid="101319">15 Sudanese Allies</string>
     <string _locid="101320">7 Jesuit Allies</string>
-    <string _locid="101321">9 Jesuit Allies</string>
-    <string _locid="101322">16 Yoruba Allies</string>
-    <string _locid="101323">
-    </string>
+    <string _locid="101321">10 Jesuit Allies</string>
+    <string _locid="101322">14 Yoruba Allies</string>
+    <string _locid="101323">8 Berber Allies</string>
     <string _locid="101324">Ships 10 Berber Arquebusier. Enables Berber Arquebusier to be trained at Palaces costing Influence.</string>
     <string _locid="101325">Arma Marksmen</string>
     <string _locid="101326">Ostrich</string>
@@ -35321,10 +35452,10 @@
     <string _locid="101331">Villagers construct buildings and gather resources. Abuns may be tasked to gather at a Mountain Monastery or heal injured units from range during battle.</string>
     <string _locid="101332">Jukunawa</string>
     <string _locid="101333">Villagers construct buildings and gather resources. Griots can inspire buildings to improve their workrate or intimidate enemies to slow their attack speed.</string>
-    <string _locid="101334" symbol="cStringGriotMalletsMode">Order the Griot to play his drums with mallets. Music!</string>
-    <string _locid="101335" symbol="cStringGriotHandsMode">Too loud! Order the Griot to play his drums quieter with his hands.</string>
-    <string _locid="101336" symbol="cStringGriotSilenceMode">Silence! Order the Griot to stop playing his loud, noisy instruments!</string>
-    <string _locid="101337" symbol="cStringGriotTrumpetMode">The Griot will play his royal Kakaki trumpet only when appropriate.</string>
+    <string _locid="101334" symbol="cStringGriotMalletsMode">Order the Griot to play his drums with mallets. Music! (visual only)</string>
+    <string _locid="101335" symbol="cStringGriotHandsMode">Too loud! Order the Griot to play his drums quieter with his hands. (visual only)</string>
+    <string _locid="101336" symbol="cStringGriotSilenceMode">Silence! Order the Griot to stop playing his loud, noisy instruments! (visual only)</string>
+    <string _locid="101337" symbol="cStringGriotTrumpetMode">The Griot will play his royal Kakaki trumpet only when appropriate. (visual only)</string>
     <string _locid="101338">3 Oromo Warriors</string>
     <string _locid="101339">6 Oromo Warriors</string>
     <string _locid="101340">Elite Javelin Rider</string>
@@ -35452,9 +35583,9 @@
     <string _locid="101462">+50% Trading Posts yield</string>
     <string _locid="101463">Each Mosque generates extra experience points.</string>
     <string _locid="101464">Saadian Madrasas</string>
-    <string _locid="101465">Coffee Consumption</string>
+    <string _locid="101465">TEAM Coffee Consumption</string>
     <string _locid="101466">TEAM Marabout Network</string>
-    <string _locid="101467">Reveals all trading posts, treasures, and enemy outposts on the map.</string>
+    <string _locid="101467">Reveals the location of all Trading Posts, Treasures, and enemy fortifications on the map.</string>
     <string _locid="101468">The Marabouts have shared their knowledge with you.</string>
     <string _locid="101469">TEAM Qanats</string>
     <string _locid="101470">TEAM Mill, Estates and Livestock Pens are cheaper and build much more quickly.</string>
@@ -35497,7 +35628,7 @@
     <string _locid="101507">10 Barbary Archers</string>
     <string _locid="101508">6 Berber Arquebusiers</string>
     <string _locid="101509">7 Bedouin Horse Archers</string>
-    <string _locid="101510">1 Sebastopol Mortar</string>
+    <string _locid="101510">TEAM 1 Sebastopol Mortar</string>
     <string _locid="101511">Sultan of the Sa'adi dynasty and leader of the Moroccan army.</string>
     <string _locid="101512">Saharan Wind</string>
     <string _locid="101513">An aura that increases the speed of the allies around you.</string>
@@ -35535,32 +35666,19 @@
     <string _locid="101545">Fortified Cities</string>
     <string _locid="101546">4 Semi-fattened Cattle</string>
     <string _locid="101547">Royal Fortifications</string>
-    <string _locid="101548">
-    </string>
-    <string _locid="101549">
-    </string>
-    <string _locid="101550">
-    </string>
-    <string _locid="101551">
-    </string>
-    <string _locid="101552">
-    </string>
-    <string _locid="101553">
-    </string>
-    <string _locid="101554">
-    </string>
-    <string _locid="101555">
-    </string>
-    <string _locid="101556">
-    </string>
-    <string _locid="101557">
-    </string>
-    <string _locid="101558">
-    </string>
-    <string _locid="101559">
-    </string>
-    <string _locid="101560">
-    </string>
+    <string _locid="101548">Elite Levied Gunner</string>
+    <string _locid="101549">Champion Levied Gunner</string>
+    <string _locid="101550">Legendary Levied Gunner</string>
+    <string _locid="101551">Elite Levied Spearman</string>
+    <string _locid="101552">Champion Levied Spearman</string>
+    <string _locid="101553">Legendary Levied Spearman</string>
+    <string _locid="101554">Elite Levied Bowman</string>
+    <string _locid="101555">Champion Levied Bowman</string>
+    <string _locid="101556">Legendary Levied Bowman</string>
+    <string _locid="101557">Mayhem Ability</string>
+    <string _locid="101558">Token for Mayhem Ability</string>
+    <string _locid="101559" symbol="cStringdePowerMayhem">Mayhem</string>
+    <string _locid="101560" symbol="cStringdePowerMayhemName">Trick enemy units into attacking each other</string>
     <string _locid="101561">Hosting a prestigious banquet exchanges ALL your current Herdables for Influence. \n • May be researched&lt;color=1.0, 0.0, 0.0&gt; ONE&lt;/color&gt; time\n • Livestock Value: 50%</string>
     <string _locid="101562">Royal Banquet</string>
     <string _locid="101563">Towers gain a gunpowder attack, which inflicts more damage.</string>
@@ -35570,13 +35688,10 @@
     <string _locid="101567">Wall hitpoints greatly increased.</string>
     <string _locid="101568">City Walls</string>
     <string _locid="101569">Strangers' Quarters</string>
-    <string _locid="101570">
-    </string>
+    <string _locid="101570">Mayhem Aura</string>
     <string _locid="101571">Granaries can’t be built too closely together.</string>
-    <string _locid="101572">
-    </string>
-    <string _locid="101573">
-    </string>
+    <string _locid="101572">2 Oromo Warriors</string>
+    <string _locid="101573">TEAM 1 Sebastopol Mortar</string>
     <string _locid="101574" symbol="cStringHUDLivestockValue">Livestock Value (&lt;icon="(32)(%1s)"&gt;): %2.1f %%</string>
     <string _locid="101575">Gascenya, Shotel Warrior and Neftenya attack and hitpoints increased. Training time decreased.</string>
     <string _locid="101576">Elite Infantry</string>
@@ -35600,10 +35715,9 @@
     <string _locid="101594">A powerful, agile mercenary warship that fires faster at close range. Inflicts high damage.</string>
     <string _locid="101595">Enables Falconets, Culverins and Mortars to be purchased using Influence.</string>
     <string _locid="101596">Enables Organ Guns and Culverins to be purchased using Influence.</string>
-    <string _locid="101598">
-    </string>
-    <string _locid="101599">
-    </string>
+    <string _locid="101597" symbol="cStringTechNotAllowedNoRush">This improvement cannot be researched during the Treaty period.</string>
+    <string _locid="101598" symbol="cStringCardNotAllowedNoRush">This shipment cannot be sent during the Treaty period.</string>
+    <string _locid="101599">Mercenary Warship</string>
     <string _locid="101600">To arms once more! We will not let them take us alive.</string>
     <string _locid="101601">This day will mark a new era in the history of Ethiopia.</string>
     <string _locid="101602">I have come to the same conclusion.</string>
@@ -36354,12 +36468,12 @@
     <string _locid="102539">Native African Musketeer</string>
     <string _locid="102540">Berber Camel Rider</string>
     <string _locid="102541">NAT Berber Camel Rider</string>
-    <string _locid="102542">Berber warrior riding a fast camel that terrifies horses. Good against cavalry.</string>
+    <string _locid="102542">Berber light cavlary warrior riding a fast camel that terrifies horses. Good against cavalry and artillery. Countered by light infantry.</string>
     <string _locid="102543">Light Hand Cavalry</string>
     <string _locid="102544">Akan Tufohen</string>
     <string _locid="102545">NAT Akan Tufohen</string>
     <string _locid="102546">Native African Warchief</string>
-    <string _locid="102547">Powerful African warchief who gains strength from nearby Akan warriors. Can heal and build. Good against cavalry.</string>
+    <string _locid="102547">Powerful African Warchief who gains strength from nearby Native Warriors. Can heal and build. Good against cavalry.</string>
     <string _locid="102548">Akan Archer</string>
     <string _locid="102549">NAT Akan Archer</string>
     <string _locid="102550">Quick-training archer unit that loses hitpoints, becoming less effective over time.</string>
@@ -36413,7 +36527,7 @@
     <string _locid="102598">Heavy hand cavalry mercenary from Sudan with many hitpoints and dual armor. Good against light infantry and artillery.</string>
     <string _locid="102599">Dahomey Amazon</string>
     <string _locid="102600">INF Dahomey Amazon</string>
-    <string _locid="102601">Battle-tested woman bodyguard mercenary of the Dahomey armed with rifle to counter infantry. Throws knives at close targets. Attacks faster at close range.</string>
+    <string _locid="102601">Battle-tested woman bodyguard mercenary of the Dahomey armed with rifle to counter infantry. Attacks faster at close range by throwing knives.</string>
     <string _locid="102602">Desert Archer</string>
     <string _locid="102603">TAVERN Desert Archer</string>
     <string _locid="102604">Secretive, skilled archer from the desert that can hit distant targets as well as shoot fast at short range. Good against infantry.</string>
@@ -36453,7 +36567,7 @@
     <string _locid="102637">Berber Salt Caravans</string>
     <string _locid="102638">Enemy Military units become slower when approaching the immediate vicinity of Mills, Estates, Farms, Rice Paddies and Fields.</string>
     <string _locid="102639">Berber Ghorfas</string>
-    <string _locid="102640">Hero Berber Sultan. Gains attack and hitpoints from Mercenaries and Outlaws.</string>
+    <string _locid="102640">Hero Berber Sultan. Gains attack and hitpoints from nearby Mercenaries and Outlaws.</string>
     <string _locid="102641">Yoruba warrior attack and hitpoints increased.</string>
     <string _locid="102642">Yoruba Warrior Societies</string>
     <string _locid="102643">Champion Yoruba</string>
@@ -36469,9 +36583,9 @@
     <string _locid="102653">Yoruba Twins</string>
     <string _locid="102654">All villagers gather wood faster. All native and civilian units heal slowly when close to trees or berry bushes.</string>
     <string _locid="102655">Yoruba Herbalism</string>
-    <string _locid="102656">All short-duration units keep 25% of their hitpoints and lose hitpoints at a slower rate.</string>
+    <string _locid="102656">All short-duration units (such as Eso Riders, Militamen, Irregulars, etc) keep 25% of their hitpoints and lose them less quickly.</string>
     <string _locid="102657">Yoruba Wrestling</string>
-    <string _locid="102658">Ships 2 Outpost Wagons. Walls and Gates grant XP upon being build.</string>
+    <string _locid="102658">Ships 2 Outpost Wagons. Walls and Gates grant XP upon being built.</string>
     <string _locid="102659">Yoruba Eredo Legacy</string>
     <string _locid="102660">Elite Akan Ankobia</string>
     <string _locid="102661">Champion Akan Ankobia</string>
@@ -36510,7 +36624,7 @@
     <string _locid="102694">Transforms into a Commerce Age economic building or Outpost.</string>
     <string _locid="102695">Allows Askaris to be recruited from Somali Trading Posts.</string>
     <string _locid="102696">Somali Local Forces</string>
-    <string _locid="102697">All your future shipments deliver an extra fishing boat. Grants 1 Red Sea Wagon.</string>
+    <string _locid="102697">All your future shipments deliver an extra fishing boat. Grants 1 Red Sea Wagon (constructs most buildings).</string>
     <string _locid="102698">Somali Berbera Seaport</string>
     <string _locid="102699">All infantry get additional armor against ranged attacks and all hand infantry become cheaper.</string>
     <string _locid="102700">Somali Oryx Hide Shields</string>
@@ -36530,8 +36644,8 @@
     <string _locid="102714">Sudanese Zariba Palisades</string>
     <string _locid="102715">Mills, Estates, Farms, Rice Paddies, and Fields cost less Wood and are built faster.</string>
     <string _locid="102716">Sudanese Hakura System</string>
-    <string _locid="102717">Ships 2 Red Sea Wagons.</string>
-    <string _locid="102718">Ships 1 Red Sea Wagon for every 5 minutes of game length, up to 30 minutes.</string>
+    <string _locid="102717">Ships 2 Red Sea Wagons (constructs most buildings).</string>
+    <string _locid="102718">Ships 1 Red Sea Wagon (constructs most buildings). Ships 1 additional Red Sea Wagon for every 5 minutes of game time passed (up to a maximum of 30 minutes).</string>
     <string _locid="102719">Sudanese Red Sea Trade</string>
     <string _locid="102720">All Cavalry and Shock Infantry get additional armor against melee attacks.</string>
     <string _locid="102721">Sudanese Quilted Armor</string>
@@ -36632,7 +36746,7 @@
     <string _locid="102817">Gidan Sarkin</string>
     <string _locid="102818">Palace of Amina</string>
     <string _locid="102819">Gatekeepers</string>
-    <string _locid="102820">Ancient Kano Walls</string>
+    <string _locid="102820">TEAM Ancient Kano Walls</string>
     <string _locid="102821">TEAM Hausa Gates</string>
     <string _locid="102822">Katsina Fortifications</string>
     <string _locid="102823">Sahelian Kingdoms</string>
@@ -36648,7 +36762,7 @@
     <string _locid="102833">Kola Nut Cultivation</string>
     <string _locid="102834">Fulani Cattle Fertilizer</string>
     <string _locid="102835">Rano Indigo Production</string>
-    <string _locid="102836">Indigo Dyeworks</string>
+    <string _locid="102836">TEAM Indigo Dyeworks</string>
     <string _locid="102837">Textile Workshops</string>
     <string _locid="102838">Koose</string>
     <string _locid="102839">Suya Skewers</string>
@@ -36657,49 +36771,50 @@
     <string _locid="102842">White Fulani Cattle</string>
     <string _locid="102843">Habbanaya</string>
     <string _locid="102844">Delivers a number of Lifidi Knights and enables them to be trained in the Commerce Age.</string>
-    <string _locid="102845">Emirs gain additional damage from nearby enemies and inflict more damage against Heroes.</string>
+    <string _locid="102845">Emirs inflict considerably more damage against Heroes and gain additional attack and hitpoints from nearby enemy military units.</string>
     <string _locid="102846">Supply of 600 Influence</string>
     <string _locid="102847">Increases the range for all ranged attacks of Fulani Archers.</string>
     <string _locid="102848">Improves Villager hitpoints and attack speed in melee combat. Villagers will tend to prefer wrestling (melee attack) in combat and only shoot at particularly long distance targets.</string>
-    <string _locid="102849">Lifidi Knights and Raiders train faster and their attacks now inflict splash damage, especially in trample mode.</string>
+    <string _locid="102849">Lifidi Knights and Raiders ride faster and their attacks now inflict splash damage, especially in trample mode.</string>
     <string _locid="102850">Ships 1 Lifidi Knight per Palace and 1 Raider per War Camp and Watch Tower.</string>
     <string _locid="102851">Maigadi attack and train speed improved. They now cost partially Coin and Influence.</string>
-    <string _locid="102852">New Emir ability: Tsetse Sabotage! Single target on Military Building, significantly slows production for a limited amount of time.</string>
+    <string _locid="102852">Unlocks a new ability for your Emir. Tsetse Sabotage: may be used to sabotage an enemy Military Building, considerably slowing down its production and research rates.</string>
     <string _locid="102853">Ships 1 Griot and 1 University Builder for educational purposes. Increases University build limit.</string>
-    <string _locid="102854">Ships all of the following Builders up until the reached age:\n • Discovery Age: 1 University Builder \n • Commerce Age: Trade Builder\n • Fortress Age: Palace Builder\n • Industrial Age: Town Center Builder\n • Imperial Age: 5 Camp Builders</string>
+    <string _locid="102854">Ships all of the following Builders up until the reached age:\n • Exploration Age: 1 University Builder \n • Commerce Age: 1 Trade Builder\n • Fortress Age: 1 Palace Builder\n • Industrial Age: 1 Town Center Builder\n • Imperial Age: 5 Camp Builders</string>
     <string _locid="102855">Universities improve the construction speed and work rate of nearby buildings.</string>
     <string _locid="102856">Villagers gather mines and trees around Universities 30% faster. University line of sight significantly increased.</string>
     <string _locid="102857">Ships a Palace and allows Palaces to be built one age earlier.</string>
     <string _locid="102858">Ships 1 Palace Wagon and tokens of 300 Influence. Increases Palace build limit by 1. Builders from the homecity construct quickly.</string>
     <string _locid="102859">Researches City Walls and enables Gates to grant nearby units a 5% attack bonus.</string>
-    <string _locid="102860">Wall hitpoints are improved by nearby military units.</string>
+    <string _locid="102860">TEAM Wall hitpoints are improved by nearby military units.</string>
     <string _locid="102861">Walls and Gates return their cost when destroyed. Gates and wall technologies are cheaper.</string>
     <string _locid="102862">Allows Levies to garrison inside Watch Towers. Units garrisoned in a Watch Tower improve its damage by 10%.</string>
     <string _locid="102863">Native Warrior, Outlaw, and Mercenary combat improved.</string>
     <string _locid="102864">Native Warriors, Mercenaries and Outlaws are cheaper, including shipments of them.</string>
     <string _locid="102865">Big Benny</string>
-    <string _locid="102866">All mines last longer and their locations are temporarily revealed.</string>
+    <string _locid="102866">All mines last longer and their locations are temporarily revealed for 3 minutes.</string>
     <string _locid="102867">You receive a free Fulani Archer for all your past and future shipments.</string>
     <string _locid="102868">Each Raider and Lifidi trained so far grants a fraction of its cost as Influence into the stockpile.</string>
     <string _locid="102869">Griot hitpoints, speed and build limit increased.</string>
-    <string _locid="102870">Griots deals more ranged damage. Intimidations now also affect the area around the target.</string>
+    <string _locid="102870">Griots inflict more damage. Instruments now intimidate enemies in a greater area.</string>
     <string _locid="102871">Enables Levies to be called from Watch Towers and garrison inside them. Units garrisoned in a Watch Tower improve its attack by 10%</string>
     <string _locid="102872">Ships a number of Akan Ankobias (Musketeers). Enables them to be trained from War Camps where they cost Population, Food, and Coin.</string>
     <string _locid="102873">Field gathering also provides a fraction of income as wood.</string>
     <string _locid="102874">Villagers gather resources from Fields faster and construct them more quickly.</string>
-    <string _locid="102875">Improves coin gathering from Fields.</string>
+    <string _locid="102875">Villagers gather Coin from Fields, Estates and Rice Paddies faster.</string>
     <string _locid="102876">Grants resources per existing Field.</string>
     <string _locid="102877">
     </string>
     <string _locid="102878">Grants a small sum of food for each of your fields on the map. Improves food gathering on fields.</string>
     <string _locid="102879">Prize Bull</string>
-    <string _locid="102880">Allows Livestock to contain more maximum Food.</string>
+    <string _locid="102880">Increases the maximum food total Herdables can fatten to.</string>
     <string _locid="102881">Particularly fattened Cattle containing 900 Food.</string>
     <string _locid="102882">300 Influence</string>
-    <string _locid="102883">Sells all your cattle for Influence and replaces them with an unfattened cattle.</string>
+    <string _locid="102883">Exchanges ALL your Sanga and other Cattle for Influence and replaces them with an unfattened calfs.\n • Cattle Value: 70%</string>
     <string _locid="102884">Zinder Kanuris</string>
     <string _locid="102885">Ships a number of Kanuri Guard mercenaries (Dragoons). Enables them to be trained from the Palace where they cost partially Coin and Influence.</string>
     <string _locid="102886">Villagers gather Food from huntable and herdable animals faster.</string>
+    <string _locid="102887">Hand Skirmisher</string>
     <string _locid="102891">Temenyas</string>
     <string _locid="102892">Neftenyas can be trained in the Commerce Age. Increases the attack of all Gunpowder Infantry.</string>
     <string _locid="102893">Chewa Elites</string>
@@ -36707,11 +36822,11 @@
     <string _locid="102895">Zebenyas</string>
     <string _locid="102896">Neftenyas gain additional hitpoints and are slightly more resilient to cannon fire.</string>
     <string _locid="102897">Cartridge Currency</string>
-    <string _locid="102898">Enemy Military Units grant a small sum of Coin in addition to Experience when defeated.</string>
+    <string _locid="102898">Enemy Infantry and Cavalry grant a small sum of Coin in addition to Experience when defeated.</string>
     <string _locid="102899">Era of Chaos</string>
-    <string _locid="102900">Chaos ability now also affects enemy units in a small area.</string>
+    <string _locid="102900">Grants your Ras the Mayhem ability that can trick enemy units within a small area into attacking each other.</string>
     <string _locid="102901">Era of Princes</string>
-    <string _locid="102902">The Kill XP you earn from fighting reduces the cost of the next Alliance you research. The XP your Rases (Heroes) earn reduces the cost more than other units.</string>
+    <string _locid="102902">The Kill XP you earn from fighting slightly reduces the cost of each Age-up Alliance you research. The XP your Rases (Heroes) earn reduces the cost much more than other units.</string>
     <string _locid="102903">Balambaras </string>
     <string _locid="102904">Fealty auras of your Ras are further improved by all your units and buildings, especially military ones.</string>
     <string _locid="102905">Dejazmach</string>
@@ -36738,14 +36853,14 @@
     <string _locid="102926">Heals and trickles XP.</string>
     <string _locid="102927">Shewa Riders</string>
     <string _locid="102928">Javelin Rider and Oromo Warrior armor and attack increased.</string>
-    <string _locid="102929">Ships a Berber Nomad villager for each Trading Post and Town Center you have constructed.</string>
+    <string _locid="102929">Ships a Berber Nomad villager for each Trading Post and Town Center you control.</string>
     <string _locid="102930">Gascenya Damage</string>
     <string _locid="102931">Gascenya Hitpoints</string>
     <string _locid="102932">Improves Gascenya damage.</string>
     <string _locid="102933">Improves Gascenya hitpoints.</string>
     <string _locid="102934">NAT Merc Berber Nomad</string>
     <string _locid="102935">NAT Merc Berber Camel Rider</string>
-    <string _locid="102936">7 Yoruba Allies</string>
+    <string _locid="102936">6 Yoruba Allies</string>
     <string _locid="102937">NAT Merc Akan Ankobia</string>
     <string _locid="102938">NAT Merc Akan Tufohen</string>
     <string _locid="102939">NAT Merc Somali Darood Militia</string>
@@ -36754,10 +36869,10 @@
     <string _locid="102942">NAT Merc Yoruba Eso Rider</string>
     <string _locid="102943">NAT Merc Yoruba Oyo Legionary</string>
     <string _locid="102944">Gondarine Architecture</string>
-    <string _locid="102945">Improves hitpoints of Town Centers, Palaces, and Mountain Monasteries by a higher percentage than walls.</string>
+    <string _locid="102945">Improves the hitpoints of all buildings, particularly Palaces, Town Centers, Mountain Monasteries and Walls.</string>
     <string _locid="102946">Fasilides' Castle</string>
     <string _locid="102947">6 Yoruba Allies</string>
-    <string _locid="102948">13 Somali Allies</string>
+    <string _locid="102948">14 Somali Allies</string>
     <string _locid="102949">
     </string>
     <string _locid="102950">
@@ -36771,8 +36886,8 @@
     <string _locid="103006">Berbers</string>
     <string _locid="103007">1 Native Embassy Builder and tokens of 400 Influence</string>
     <string _locid="103008">4 Berber Camel Riders</string>
-    <string _locid="103009">6 Berber Camel Riders</string>
-    <string _locid="103010">11 Berber Camel Riders</string>
+    <string _locid="103009">5 Berber Camel Riders</string>
+    <string _locid="103010">10 Berber Camel Riders</string>
     <string _locid="103011">Hausa</string>
     <string _locid="103012">1 Hausa Builder and cords of 300 Wood</string>
     <string _locid="103013">Cords of 700 Wood</string>
@@ -36791,8 +36906,8 @@
     <string _locid="103026">Akan</string>
     <string _locid="103027">1 Native Embassy Builder and tokens of 400 Influence</string>
     <string _locid="103028">6 Akan Ankobias</string>
-    <string _locid="103029">10 Akan Ankobias</string>
-    <string _locid="103030">20 Akan Ankobias</string>
+    <string _locid="103029">8 Akan Ankobias</string>
+    <string _locid="103030">16 Akan Ankobias</string>
     <string _locid="103031">Moroccans</string>
     <string _locid="103032">1 Mosque Builder and tomes of 400 XP</string>
     <string _locid="103033">1 Mosque Builder and tomes of 600 XP</string>
@@ -36802,7 +36917,7 @@
     <string _locid="103037">[RESERVED]</string>
     <string _locid="103038">[RESERVED]</string>
     <string _locid="103039">[RESERVED]</string>
-    <string _locid="103040">1 Arsenal Builder and 2 Heavy Cannons</string>
+    <string _locid="103040">1 Arsenal Builder and 1 Heavy Cannon</string>
     <string _locid="103041">Oromo</string>
     <string _locid="103042">[RESERVED]</string>
     <string _locid="103043">[RESERVED]</string>
@@ -36820,14 +36935,14 @@
     <string _locid="103055">Chests of 2,000 Coin</string>
     <string _locid="103056">Somalis</string>
     <string _locid="103057">1 Native Embassy Builder and tokens of 400 Influence</string>
-    <string _locid="103058">6 Somali Issa Warriors</string>
-    <string _locid="103059">10 Somali Issa Warriors</string>
-    <string _locid="103060">20 Somali Issa Warriors</string>
+    <string _locid="103058">7 Somali Issa Warriors</string>
+    <string _locid="103059">9 Somali Issa Warriors</string>
+    <string _locid="103060">17 Somali Issa Warriors</string>
     <string _locid="103061">Sudanese</string>
     <string _locid="103062">1 Native Embassy Builder and tokens of 400 Influence</string>
     <string _locid="103063">7 Sudanese Dervishes</string>
-    <string _locid="103064">11 Sudanese Dervishes</string>
-    <string _locid="103065">22 Sudanese Dervishes</string>
+    <string _locid="103064">10 Sudanese Dervishes</string>
+    <string _locid="103065">20 Sudanese Dervishes</string>
     <string _locid="103066">Indians</string>
     <string _locid="103067">[RESERVED]</string>
     <string _locid="103068">1 Indian Market Builder and tokens of 500 Influence</string>
@@ -36842,7 +36957,7 @@
     <string _locid="103077">[RESERVED]</string>
     <string _locid="103078">[RESERVED]</string>
     <string _locid="103079">[RESERVED]</string>
-    <string _locid="103080">5 Gatling Camels</string>
+    <string _locid="103080">4 Gatling Camels</string>
     <string _locid="103081" symbol="cStringChooseAllegianceAge2">Select a Commerce Age Alliance</string>
     <string _locid="103082" symbol="cStringChooseAllegianceAge3">Select a Fortress Age Alliance</string>
     <string _locid="103083" symbol="cStringChooseAllegianceAge4">Select an Industrial Age Alliance</string>
@@ -36868,7 +36983,7 @@
     <string _locid="103103" symbol="cStringBuildBountySpecificFormat">Build Reward: </string>
     <string _locid="103104">Livestock trickle Influence faster.</string>
     <string _locid="103105">Transhumance</string>
-    <string _locid="103106">When you exchange fully fattened Livestock for resources at the Livestock Market, the animal sold will be replaced with an unfattened calf.</string>
+    <string _locid="103106">When you exchange&lt;color=1.0, 0.0, 0.0&gt;fully-fattened&lt;/color&gt; Livestock for resources at the Livestock Market, the animal sold will be replaced with an unfattened calf.</string>
     <string _locid="103107">Cow Loans</string>
     <string _locid="103108">Grants a number of Cattle of varying sizes.</string>
     <string _locid="103109">Crossing Festival</string>
@@ -36897,7 +37012,7 @@
     <string _locid="103132">Berber Kings of the Desert: Nomad hitpoints and bonus damage against Cavalry increased.</string>
     <string _locid="103133">Food Storage</string>
     <string _locid="103134">Berber Ghorfas: Enemy units become slower when approaching farming buildings.</string>
-    <string _locid="103135">Granaries improve nearby food gathering by 10% and attract huntable animals.</string>
+    <string _locid="103135">Granaries attract huntable animals and improve nearby food and field gathering by 10%.</string>
     <string _locid="103136">Hausa Builder</string>
     <string _locid="103137">VIL Hausa Builder</string>
     <string _locid="103138">Can build a House, Trading Post, Livestock Market, Granary, Port, War Camp or Artillery Foundry, if available.</string>
@@ -36932,7 +37047,7 @@
     <string _locid="103167">Argan Tree Planting</string>
     <string _locid="103168">Moroccan techniques for tanning luxury leather causes livestock to grant a small sum of influence when harvested, due to their tannable hides.</string>
     <string _locid="103169">Moroccan Leather</string>
-    <string _locid="103170">Ships 1 Xebec Warship and 10 Corsair Marksmen.</string>
+    <string _locid="103170">Ships a powerful mercenary Xebec warship and a number of agile Corsair Marksmen good against heavy infantry and light ranged cavalry.</string>
     <string _locid="103171">Salé Rovers</string>
     <string _locid="103172">Unlocks Corsair Marksmen (Rifle Infantry) at Watch Towers. Ships 1 Watch Tower Builder.</string>
     <string _locid="103173">Arma Garrisons</string>
@@ -36948,36 +37063,28 @@
     <string _locid="103183">Unlocks unique Moroccan improvements at the University.</string>
     <string _locid="103184">Moroccan Technologies</string>
     <string _locid="103185">Argan Tree Planting: All future shipments deliver a Semi-fattened Goat.</string>
-    <string _locid="103186">
-    </string>
+    <string _locid="103186">Tokens of 1,000 Influence</string>
     <string _locid="103187">Unlocks unique Moroccan improvements at your University.</string>
     <string _locid="103188">Watch Tower: Moroccan Technologies</string>
-    <string _locid="103189">
-    </string>
-    <string _locid="103190">Arma Garrisons: Corsair Marksmen unlocked at Watch Towers. Outlaws take -1 population capacity. Ships 1 Watch Tower Wagon.</string>
+    <string _locid="103189">Sudanese Red Sea Trade Settlements</string>
+    <string _locid="103190">Arma Garrisons: Corsair Marksmen unlocked at Watch Towers. Ships 1 Watch Tower Wagon.</string>
     <string _locid="103191">Unlocks Yoruba Eso Riders and Yoruba Oyo Legionaries at the Palace and Native Embassy.</string>
     <string _locid="103192">Yoruba Units</string>
     <string _locid="103193">Unlocks native Yoruba improvements at your University.</string>
     <string _locid="103194">Yoruba Technologies</string>
-    <string _locid="103195">
-    </string>
+    <string _locid="103195">Tabot</string>
     <string _locid="103196">Yoruba Twins: Each Yoruba native unit spawns a clone of itself.</string>
-    <string _locid="103197">
-    </string>
+    <string _locid="103197">Sefari</string>
     <string _locid="103198">Yoruba Wrestling: Short-duration units keep 25% of their hitpoints and lose hitpoints at a slower rate.</string>
-    <string _locid="103199">
-    </string>
+    <string _locid="103199">Ships a number of Gascenya and Shotel Warriors and makes their upgrades cheaper and research faster.</string>
     <string _locid="103200">Unlocks Akan Ankobias at the Palace and Native Embassy.</string>
     <string _locid="103201">Akan Units</string>
     <string _locid="103202">Unlocks native Akan improvements at your University.</string>
     <string _locid="103203">Akan Technologies</string>
-    <string _locid="103204">
-    </string>
-    <string _locid="103205">
-    </string>
+    <string _locid="103204">British Firearms</string>
+    <string _locid="103205">Italian Firearms</string>
     <string _locid="103206">Akan Gold Economy: 1 Gold Prospector Wagon. Villagers gather coin faster from Mines.</string>
-    <string _locid="103207">
-    </string>
+    <string _locid="103207">Causes all enemy Military Units to grant a small sum of Influence in addition to Experience when defeated.</string>
     <string _locid="103208">Akan Palm Oil Exports: All Food is converted into 50% Wood and 50% Coin.</string>
     <string _locid="103209">10% of the resources you have earned from Mining and Trading Posts are granted to you again as Coin.</string>
     <string _locid="103210">Mansa Musa Epic</string>
@@ -37002,16 +37109,13 @@
     <string _locid="103229">Songhai Units</string>
     <string _locid="103230">Songhai Ability</string>
     <string _locid="103231">For the rest of the game, enemy units and buildings grant a small sum of Influence when defeated.</string>
-    <string _locid="103232">
-    </string>
-    <string _locid="103233">
-    </string>
+    <string _locid="103232">Ships Harquebusier mercenaries and improves the attack damage of all Heavy Ranged Cavalry.</string>
+    <string _locid="103233">Ships Li'l Bombard mercenaries and improves the area damage of all Artillery.</string>
     <string _locid="103234">Unlocks Somali Darood Militias and Somali Issa Warriors at the Palace and Native Embassy.</string>
     <string _locid="103235">Somali Units</string>
     <string _locid="103236">Unlocks native Somali improvements at your Mountain Monasteries.</string>
     <string _locid="103237">Somali Technologies</string>
-    <string _locid="103238">
-    </string>
+    <string _locid="103238">Arrives fast! Ships a number of Yoruba Eso Riders.</string>
     <string _locid="103239">
     </string>
     <string _locid="103240">
@@ -37020,10 +37124,9 @@
     </string>
     <string _locid="103242">
     </string>
-    <string _locid="103243">Somali Berbera Seaports: All future shipments deliver an extra Fishing Boat. Grants 1 Dock Wagon.</string>
+    <string _locid="103243">Somali Berbera Seaports: All future shipments deliver an extra Fishing Boat. Grants 1 Red Sea Wagon (constructs most buildings).</string>
     <string _locid="103244">Somali Coinage: Trading Posts grant more resources and whales and mines are gathered faster.</string>
-    <string _locid="103245">
-    </string>
+    <string _locid="103245">Ships a number of Raiders and Lifidi Knights and makes their upgrades cheaper and research faster.</string>
     <string _locid="103246">Unlocks Sudanese Dervishes at the Palace and Native Embassy.</string>
     <string _locid="103247">Sudanese Units</string>
     <string _locid="103248">Unlocks native Sudanese improvements at your Mountain Monastery.</string>
@@ -37083,7 +37186,7 @@
     <string _locid="103294">Lalibela Rock Church</string>
     <string _locid="103295">Significantly increases Mountain Monastery hitpoints and enables them to generate resources without sitting on a Mine.</string>
     <string _locid="103296">Ark of the Covenant</string>
-    <string _locid="103297">Enables Mountain Monasteries to boost the hitpoints of nearby units and buildings.</string>
+    <string _locid="103297">Enables Mountain Monasteries to boost the hitpoints of nearby Units and buildings by 10%.</string>
     <string _locid="103298">Timkat</string>
     <string _locid="103299">Increases Abun healing range and build limit.</string>
     <string _locid="103300">Book of Axum</string>
@@ -37130,14 +37233,14 @@
     <string _locid="103340">Unlocks unique Jesuit improvements at your Mountain Monastery.</string>
     <string _locid="103341">Jesuit Technologies</string>
     <string _locid="103342">Christian Schools: Villagers are trained faster.</string>
-    <string _locid="103343">Smokeless Power: Gunpowder Units deal more damage against Buildings.</string>
+    <string _locid="103343">Smokeless Powder: Gunpowder Units deal more damage.</string>
     <string _locid="103344">
     </string>
     <string _locid="103345">
     </string>
     <string _locid="103346">
     </string>
-    <string _locid="103347">Ships 1 Villager. Ships 1 additional Villager for each one you have lost so far this game (up to a maximum of 20).</string>
+    <string _locid="103347">Ships 1 Villager. Ships 1 additional Villager for each one you have lost so far this game (up to a maximum of 15).</string>
     <string _locid="103348">Oromo Migrations</string>
     <string _locid="103349">Ships 2 fully fattened Cattle and grants a one time boost to livestock exchange rates.</string>
     <string _locid="103350">Karrayyu Pastoralism</string>
@@ -37201,7 +37304,7 @@
     <string _locid="103403">The next Alliance you research, or are researching, will Age Up 50 seconds faster.</string>
     <string _locid="103404">Kebra Nagast</string>
     <string _locid="103405">8 Javelin Riders</string>
-    <string _locid="103406">10 Desert Warriors</string>
+    <string _locid="103406">9 Desert Warriors</string>
     <string _locid="103407">10 Desert Archers</string>
     <string _locid="103408">1 Cannon Boat</string>
     <string _locid="103409">Recruit Xebec</string>
@@ -37218,7 +37321,7 @@
     <string _locid="103420" symbol="cStringGodPowerNoStack">This unit is already being affected by another instance of this ability.</string>
     <string _locid="103421">Tsetse Sabotage</string>
     <string _locid="103422">Sabotages an enemy building, considerably slowing down its production. Cannot be used on a building that is already being affected by this ability.</string>
-    <string _locid="103423">Supply of 200 Influence</string>
+    <string _locid="103423">Tokens of 100 Jesuit Influence</string>
     <string _locid="103424">&lt;ttf&gt;&lt;tth&gt;Tokens of Influence&lt;ttf&gt;&lt;tti&gt;Transforms this Kingdom Builder into Tokens of 200 Influence.</string>
     <string _locid="103425">You receive a Kingdom Builder for every Town Center you currently own. Kingdom Builders can transform into Tokens of Influence.</string>
     <string _locid="103426">Inviting skilled engineers enables Heavy Cannons to be built at the Palace.</string>
@@ -37233,6 +37336,9 @@
     <string _locid="103435">Native Embassy Builder</string>
     <string _locid="103436">Increases the movement and attack speed of units nearby any Ras for a short duration.</string>
     <string _locid="103437">African Hero</string>
+    <string _locid="103438">Hand Shock Infantry</string>
+    <string _locid="103439" symbol="cStringMaintainPaused">(paused)</string>
+    <string _locid="103440" symbol="cStringMaintainPausedMsg">Are you sure you want to stop automatic training?</string>
     <string _locid="104000">[RESERVED]</string>
     <string _locid="104001">[RESERVED]</string>
     <string _locid="104002">[RESERVED]</string>
@@ -37287,7 +37393,7 @@
     <string _locid="104122">Tribal Societies</string>
     <string _locid="104123">Villager hitpoints and speed increased.</string>
     <string _locid="104124">Royal Hunters</string>
-    <string _locid="104125">Villager range and line-of-sight increased.</string>
+    <string _locid="104125">Villager range improved and line-of-sight greatly increased.</string>
     <string _locid="104126">Transhumance</string>
     <string _locid="104127">Livestock generates Influence faster.</string>
     <string _locid="104128">Cow Loans</string>
@@ -37305,10 +37411,10 @@
     <string _locid="104505">Ships 400 Influence per current Mountain Monastery.</string>
     <string _locid="104506">Mountain Fortifications</string>
     <string _locid="104507">Mountain Monasteries gain a ranged attack and garrison space.</string>
-    <string _locid="104508">TEAM 5 Zenata Rider</string>
+    <string _locid="104508">TEAM 4 Zenata Rider</string>
     <string _locid="104509">Villagers gather food from hunted animals and livestock much faster.</string>
     <string _locid="104510">Wukro Chirkos Church</string>
-    <string _locid="104511">All your Mountain Monasteries currently present on the map contain additional coin.</string>
+    <string _locid="104511">All your existing and newly constructed Mountain Monasteries contain additional coin.</string>
     <string _locid="104512">Fulani Archer Combat</string>
     <string _locid="104513">22 Somali Allies</string>
     <string _locid="104514">Increases trade unit, Villager, and Wagon speed.</string>
@@ -37351,8 +37457,15 @@
     <string _locid="104551">Hire Cannoneers</string>
     <string _locid="104552">He's an animal!</string>
     <string _locid="104553">Transforms into an Outpost for frontier defense. </string>
+    <string _locid="104554">6 Lifidi Knights</string>
+    <string _locid="104555">Hand Cavalry Combat</string>
+    <string _locid="104556">Raider and Lifidi knight attack and hitpoints improved.</string>
+    <string _locid="104557">Delivers 5 Griots</string>
+    <string _locid="104558">Mercenary shipments are cheaper.</string>
+    <string _locid="104559">3 Captured Mortars</string>
+    <string _locid="104560">Huguenot</string>
     <string _locid="104800">TEAM 1 Camp Builder</string>
-    <string _locid="104801">Trade Empire</string>
+    <string _locid="104801">TEAM Trade Empire</string>
     <string _locid="104802">You get a Trading Post Builder, and Trading Posts are cheaper and stronger.</string>
     <string _locid="104803">4 Camp Builders</string>
     <string _locid="104804">5 Camp Builders</string>
@@ -37382,9 +37495,9 @@
     <string _locid="105023">Savanna: Battle over two watering holes on the great plains of Africa.\n\nSettlements: Akan, Yoruba\nOutlaws: Desert Warrior, Desert Archer</string>
     <string _locid="105024">Tassili</string>
     <string _locid="105025">This vast plateau in the Sahara is known for its prehistoric cave art and ‘otherworldly’ geological formations. The higher altitude and water-retaining properties of sandstone allow dry woodland and scrub to flourish despite the arid climate. Players do battle in a valley surrounded by cliffs, almost all the trees are found in the center of the map and two separate trade routes span either side – bringing the action to unusual areas.</string>
-    <string _locid="105026">Tassili: Fight for map control around a central oases deep in the Sahara.\n\nSettlements: Berbers\nOutlaws: Desert Warrior, Desert Archer</string>
+    <string _locid="105026">Tassili: Fight for map control around a central oasis deep in the Sahara.\n\nSettlements: Berbers\nOutlaws: Desert Warrior, Desert Archer</string>
     <string _locid="105027">Highlands</string>
-    <string _locid="105028">Players do battle upon an ancient, rugged mountain in the highlands of Ethiopia and Eritrea. The lowland sports two seperate trade routes with the majority of the resources found at higher elevations. This regions spans a range of terrains and an unusually temperate climate for its elevation due to its proximity to the equator. Savannah grasslands can be found at lower elevations, while Harenna and Montane forests grow at higher elevations near the snow-capped peak.</string>
+    <string _locid="105028">Players do battle upon an ancient, rugged mountain in the highlands of Ethiopia and Eritrea. The lowland sports two separate trade routes with the majority of the resources found at higher elevations. This region spans a range of terrains and an unusually temperate climate for its elevation due to its proximity to the equator. Savannah grasslands can be found at lower elevations, while Harenna and Montane forests grow at higher elevations near the snow-capped peak.</string>
     <string _locid="105029">Highlands: Battle atop a mountain with many narrow paths.\n\nSettlements: Somalis, Sudanese, Jesuit\nOutlaws: Desert Warrior, Desert Archer</string>
     <string _locid="105030">Niger River</string>
     <string _locid="105031">The principal river of West Africa is timeless in its significance to civilization here. Flowing through the Savanna, up into the Sahel, and then south again where it forms its delta, it is an important trade route and water supply for droves of people. While the surrounding climate is somewhat dry, it remains an extremely resource-rich region. Players begin with an extra Town Center wagon that they can use to establish a foothold on the opposite side of the river.</string>
@@ -37512,7 +37625,7 @@
     <string _locid="105153">Lrg Dunes</string>
     <string _locid="105154">XL Great Plains</string>
     <string _locid="110000" symbol="cStringCivNameAmericans">United States</string>
-    <string _locid="110001" symbol="cStringCivRolloverAmericans">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nFederal states unlock two new cards per age and two Factory cards in Industrial Age. Receives XP crates for free when aging up. Generals can build Forts instead of Town Centers. Levies can be called repeatedly from multiple buildings.\n&lt;color=1.0, 1.0, 0.0&gt;National guard units:&lt;/color&gt;State Militia (Volunteer)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarbine Cavalry, Gatling Gun, Ironclad, Minuteman, Regular, Sharpshooter, Sloop, State Militia, Steamer\n\nThe "land of opportunity" provided a new world for people from many nations, creating the famous melting pot of cultures. Expanding from militia forces skilled in skirmishing tactics and marksmanship to a professional army, the United States of America ensured its independence and impressive road to prosperity.</string>
+    <string _locid="110001" symbol="cStringCivRolloverAmericans">&lt;color=1.0, 1.0, 0.0&gt;Civilization bonus:&lt;/color&gt;\nFederal states unlock two new cards per age and two Factory cards in Industrial Age. Receives XP crates for free when aging up. Generals can build Forts instead of Town Centers. Levies can be called repeatedly from multiple buildings.\n&lt;color=1.0, 1.0, 0.0&gt;National guard units:&lt;/color&gt;\nState Militia (Volunteer)\n&lt;color=1.0, 1.0, 0.0&gt;Unique units:&lt;/color&gt;\nCarbine Cavalry, Gatling Gun, Ironclad, Minuteman, Regular, Sharpshooter, Sloop, State Militia, Steamer\n\nThe "land of opportunity" provided a new world for people from many nations, creating the famous melting pot of cultures. Expanding from militia forces skilled in skirmishing tactics and marksmanship to a professional army, the United States of America ensured its independence and impressive road to prosperity.</string>
     <string _locid="110002">Washington, D. C.</string>
     <string _locid="110003">Meriwether Lewis</string>
     <string _locid="110004">George Washington</string>
@@ -37662,7 +37775,7 @@
     <string _locid="110148">United States Levy/Conscription</string>
     <string _locid="110149">Captured Mortar</string>
     <string _locid="110150">AR Captured Mortar</string>
-    <string _locid="110151">Artillery captured and operated by Native Americans. Can also inflict splash damage to enemy land units. Good against buildings and ships.</string>
+    <string _locid="110151">Artillery captured and operated by Native Americans. Fires an exploding shell at buildings or ships.</string>
     <string _locid="110152">Improved Hitpoint Aura</string>
     <string _locid="110153">Dutch Immigrants</string>
     <string _locid="110154">Find Healer</string>
@@ -37726,11 +37839,11 @@
     <string _locid="110211">Federal Army: Regulars</string>
     <string _locid="110212">Zouave</string>
     <string _locid="110213">INF Zouave</string>
-    <string _locid="110214">Zouave. High hitpoint ranged infantry mercenary.</string>
+    <string _locid="110214">Zouave. High hitpoint multi-purpose ranged infantry mercenary. Fights well against all units.</string>
     <string _locid="110215">Napoleon Gun</string>
     <string _locid="110216">AR Napoleon Gun</string>
     <string _locid="110217">Artillery mercenary</string>
-    <string _locid="110218">Small but mighty field gun mercenary with an additional case shot attack (extra powerful splash damage attack which can only be used at very close range). Moves and fires quickly.</string>
+    <string _locid="110218">Small but mighty field gun mercenary which moves and fires quickly. Has an additional case shot attack: extra powerful splash damage attack which can only be used at very close range.</string>
     <string _locid="110219">Swedish Immigrants</string>
     <string _locid="110220">Swedish Immigrants rollover, but longer.</string>
     <string _locid="110221">Boston Tea Party</string>
@@ -37992,7 +38105,7 @@
     <string _locid="110474">Enables up to 3 random mercenaries in the Saloon and ships 13 random mercenary units.</string>
     <string _locid="110475">Poker</string>
     <string _locid="110476">Ships 13 random mercenary units.</string>
-    <string _locid="110477">TEAM Ships 1 Covered Wagon which can be built in any age. All existing and newly constructed TEAM Town Centers spawn 6 Bisons.</string>
+    <string _locid="110477">TEAM Ships 1 Covered Wagon which can be built in any age. All existing and newly constructed TEAM Town Centers spawn 3 Bisons.</string>
     <string _locid="110478">TEAM Louisiana Purchase</string>
     <string _locid="110479">Transforms into a Silver Mine</string>
     <string _locid="110480">Prospects for silver to open a Silver Mine.</string>

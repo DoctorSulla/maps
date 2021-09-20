@@ -22,12 +22,9 @@
   <map>Great Plains</map>
   <map>Himalayas</map>
   <map>afGold Coast</map>
-  <map>afGold Coast</map>
   <map>afGreat Rift</map>
   <map>afGreat Rift</map>
   <map>afHighlands</map>
-  <map>afHighlands</map>
-  <map>afLakeChad</map>
   <map>afLakeChad</map>
   <map>afNiger Delta</map>
   <map>afNile Valley</map>
@@ -41,6 +38,17 @@
   <map>afTassili</map>
   <map>afTassili</map>
   <map>afDarfur</map>
-  <map>afDarfur</map>
-  <map>afDarfur</map>
+  <map>afDarfur</map>  
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afSahel</map>
+  <map>afDunes</map>
+  <map>afDunes</map>
+  <map>afIvoryCoast</map>
+  <map>afIvoryCoast</map>
+  <map>afIvoryCoast</map>
+  <map>afIvoryCoast</map>
 </randomMaps>
